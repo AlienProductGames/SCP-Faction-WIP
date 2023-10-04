@@ -1,0 +1,12 @@
+<w>
+	<file name="ui\new_game\ui_new_game_popup_scp">
+		<texture id="ui_new_game_btn_scp_e" x="0" y="5" width="88" height="88" />
+		<texture id="ui_new_game_btn_scp_h" x="100" y="5" width="88" height="88" />
+		<texture id="ui_new_game_btn_scp_t" x="100" y="5" width="88" height="88" />
+		<texture id="ui_new_game_btn_scp_d" x="0" y="5" width="88" height="88" />
+	</file>
+	
+	<file name="ui\new_game\ui_new_game_factions_scp">
+		<texture id="ui_new_game_flair_scp" x="100" y="400" width="104" height="80" />
+	</file>
+</w>

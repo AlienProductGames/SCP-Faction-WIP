@@ -1,0 +1,6 @@
+<w>
+	<file name="ui\ui_mm_faction_patches_scp">
+		<texture id="ui_mm_faction_scp"		            x="390" y="0" 	    width="64" height="64" />
+		<texture id="ui_mm_faction_scp_inactive"		x="455" y="0" 	    width="64" height="64" />
+	</file>
+</w>
