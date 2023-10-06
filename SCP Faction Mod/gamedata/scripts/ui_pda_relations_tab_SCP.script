@@ -1,0 +1,37 @@
+if dmg_safr_pda_mcm then
+
+    ui_pda_relations_tab.enc_ref_list = { 
+    "loner", 
+    "duty", 
+    "freedom", 
+    "clear_sky", 
+    "ecologist", 
+    "mercenary", 
+    "scp",
+    "military", 
+    "isg", 
+    "renegade", 
+    "bandit", 
+    "greh", 
+    "monolith", 
+    "zombified"
+    }
+    
+    ui_pda_relations_tab.faction_code_list = { 
+    "stalker", 
+    "dolg", 
+    "freedom", 
+    "csky", 
+    "ecolog", 
+    "killer",
+    "scp", 
+    "army", 
+    "isg", 
+    "renegade", 
+    "bandit", 
+    "greh", 
+    "monolith", 
+    "zombied"
+    }
+
+end
