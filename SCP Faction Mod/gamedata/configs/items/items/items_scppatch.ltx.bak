@@ -1,8 +1,0 @@
-[scp_patch]:csky_patch
-visual                                   = dynamics\tfw_badges\tfw_badge_scp.ogf
-icons_texture                            = ui\ui_icon_scppatch2.dds
-inv_name                                 = st_scp_fp
-inv_name_short                           = st_scp_fp
-description                              = st_scp_fp_descr
-inv_grid_x                               = 0
-inv_grid_y                               = 0
