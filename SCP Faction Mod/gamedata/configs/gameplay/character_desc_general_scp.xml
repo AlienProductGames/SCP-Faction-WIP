@@ -228,7 +228,7 @@
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>ui_inGame2_mercsun_old</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalkerscp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_20" team_default = "1">
