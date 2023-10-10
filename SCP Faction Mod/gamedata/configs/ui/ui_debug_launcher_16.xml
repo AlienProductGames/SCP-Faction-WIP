@@ -246,8 +246,8 @@
 	</dbg_spawn_tool>
 	
 <!-- Change faction -->	
-	<dbg_faction_change x="312" y="184" width="400" height="460" stretch="1">
-		<frame_base x="0" y="0" width="400" height="460" stretch="1">
+	<dbg_faction_change x="312" y="134" width="400" height="560" stretch="1">
+		<frame_base x="0" y="0" width="400" height="560" stretch="1">
 			<texture r="0" g="0" b="0" a="150">ui_icons_PDA_tooltips</texture>
 		</frame_base>
 		
@@ -291,7 +291,7 @@
 		<btn_isg x="250" y="350" width="72" height="90" stretch="1">
 			<texture>ui_new_game_btn_isg</texture>
 		</btn_isg>
-		<btn_scp x="250" y="350" width="90" height="90" stretch="1">
+		<btn_scp x="50" y="450" width="90" height="90" stretch="1">
 			<texture>ui_new_game_btn_scp</texture>
 		</btn_scp>
 	</dbg_faction_change>
