@@ -72,7 +72,7 @@ function dynamic_news_manager.DynamicNewsManager.__init(self)
 end
 
 --================== ui_pda_relations_tab ====================--
-local orig_init_controls = ui_pda_relations_tab.pda_relations_tab.InitControls
+local orig_pda_relations_init_controls = ui_pda_relations_tab.pda_relations_tab.InitControls
 function ui_pda_relations_tab.pda_relations_tab.InitControls(self)
 	-- This replaces the monolith in the PDA relations tab
 	-- Unfortunately the PDA can't show any more than 9 factions without text overflow (probably requires to edit the xml)
@@ -84,7 +84,7 @@ function ui_pda_relations_tab.pda_relations_tab.InitControls(self)
 			self.list[9] = "scp"
 		end
 	end
-	orig_init_controls(self)
+	orig_pda_relations_init_controls(self)
 end
 
 function on_game_start()
@@ -189,3 +189,14 @@ end
 table.insert(game_relations.factions_table, "scp")
 table.insert(game_relations.factions_table_all, "scp")
 table.insert(game_relations.factions_table_all, "actor_scp")
+
+--==================== gameplay_disguise ======================--
+gameplay_disguise.blacklisted_factions["scp"] = true
+gameplay_disguise.possible_factions["scp"] = true
+
+--==================== ui_debug_launcher ======================--
+local orig_debug_launcher_init_controls = ui_debug_launcher.UIDebug_FactionSwitch.InitControls
+function ui_debug_launcher.UIDebug_FactionSwitch.InitControls(self)
+	table.insert(self.factions, "scp")
+	orig_debug_launcher_init_controls(self)
+end
