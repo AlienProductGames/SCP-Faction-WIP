@@ -1,0 +1,18 @@
+;;---------------------------------------------------------------------------
+;;-- Tronex
+;;-- Outfit and helmet listed per model
+;;-- They spawn on the corpse the moment its looted. See death_manager.script
+;;-- if outfit drop option is "Progressive", outfit drop happens according to settings in [outfit_drop_settings]
+;;---------------------------------------------------------------------------
+
+
+
+;-- drop outfits according to player rank and outfit cost
+;-- if the following equation is true, outfit can drop
+;-- ( player progression x rank_multiplier ) + cost_start >= outfit cost
+;-- player progression: rank number, starts from 0 on playthrough start, ends with Legend rank (27999)
+
+;-- outfit drop according to model
+[outfit_by_visual]
+stalker_scp_0 = scp_guard_outfit
+stalker_scp_1 = Zone_wonderer_outfit

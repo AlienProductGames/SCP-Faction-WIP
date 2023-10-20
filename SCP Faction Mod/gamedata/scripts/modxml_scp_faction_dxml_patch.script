@@ -1,0 +1,39 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\ui_mm_faction_select.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local scp_faction =
+            [[
+            <btn_scp x="0" y="0" width="88" height="88" stretch="1">
+				<texture>ui_new_game_btn_scp</texture>
+			</btn_scp>
+            ]]
+            xml_obj:insertFromXMLString(scp_faction)
+        end
+    end)
+end
+
+
+
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\ui_mm_faction_select_16.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local scp_faction =
+            [[
+            <btn_scp x="0" y="0" width="70" height="88" stretch="1">
+				<texture>ui_new_game_btn_scp</texture>
+			</btn_scp>
+            ]]
+            xml_obj:insertFromXMLString(scp_faction)
+        end
+    end)
+end
