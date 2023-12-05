@@ -1,0 +1,32 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\map_spots_16.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local scp_map_spot_16 =
+            [[
+            <circle_scp>
+                <level_map spot="circle_scp_spot" pointer="quest_pointer"/>
+            </circle_scp>
+                <circle_scp_spot  x="131" y="201" width="24" height="24" alignment="c" scale="1" scale_min="1" scale_max="1" stretch = "1">
+            <texture>ui_mm_faction_scp</texture>
+                </circle_scp_spot>	
+
+            <warfare_scp_spot>
+                <level_map spot="warfare_scp_tex"/>
+                <mini_map spot="warfare_scp_spot_mini"/>
+            </warfare_scp_spot>
+            <warfare_scp_tex width="13" height="13" stretch="1" alignment="c" location_level="5">
+                <texture r="144" g="192" b="144">ui_pda2_squad_leader</texture>
+            </warfare_scp_tex>
+            <warfare_scp_spot_mini x="0" y="0" width="9" height="9" alignment="c" stretch="1" location_level="10" scale_min="3.0" scale_max="5.1" scale="0">
+                <texture r="144" g="192" b="144">ui_minimap_squad_leader</texture>
+            </warfare_scp_spot_mini>
+            ]]
+            xml_obj:insertFromXMLString(scp_map_spot_16)
+        end
+    end)
+end

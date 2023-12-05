@@ -1,3 +1,12 @@
+---==================================================================================================================---
+---                                                                                                                  ---
+---    Original Author(s) :  Tosox	                                                                                 ---
+---    Edited : N/A                                                                                                  ---
+---    Date : 15/10/2023                                                                                             ---
+---    License : Proprietary                                                                                         ---
+---                                                                                                                  ---
+---==================================================================================================================---
+
 --============================= _g =============================--
 _G.squad_community_by_behaviour["scp"] = "scp"
 
@@ -138,8 +147,14 @@ table.insert(warfare_factions.factions, "scp")
 table.insert(warfare_factions.all_factions, "scp")
 warfare_factions.factions_p["scp"] = true
 
+--======================== warfare ============================--
+--warfare.registered_squads["scp"] = {}
+
+--=================== sim_squad_warfare =======================--
+sim_squad_warfare.squad_icons["scp"] = "warfare_scp_spot"
+
 --===================== smart_terrain ========================--
-smart_terrain.squads_by_faction["scp"] = "merc_sim_squad_novice, merc_sim_squad_advanced, merc_sim_squad_veteran"
+smart_terrain.squads_by_faction["scp"] = "scp_sim_squad_novice, scp_sim_squad_advanced, scp_sim_squad_veteran"
 
 --================== smart_terrain_warfare ====================--
 smart_terrain_warfare.pda_icons["scp"] = "circle_scp"

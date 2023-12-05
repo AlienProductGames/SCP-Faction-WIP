@@ -1,9 +1,9 @@
 <w>
 	<file name="ui\new_game\ui_new_game_popup_scp">
-		<texture id="ui_new_game_btn_scp_e" x="0" y="8" width="88" height="88" />
-		<texture id="ui_new_game_btn_scp_h" x="100" y="8" width="88" height="88" />
-		<texture id="ui_new_game_btn_scp_t" x="100" y="8" width="88" height="88" />
-		<texture id="ui_new_game_btn_scp_d" x="0" y="8" width="88" height="88" />
+		<texture id="ui_new_game_btn_scp_e" x="-6" y="0" width="88" height="88" />
+		<texture id="ui_new_game_btn_scp_h" x="94" y="0" width="88" height="88" />
+		<texture id="ui_new_game_btn_scp_t" x="94" y="0" width="88" height="88" />
+		<texture id="ui_new_game_btn_scp_d" x="-6" y="0" width="88" height="88" />
 	</file>
 	
 	<file name="ui\new_game\ui_new_game_factions_scp">

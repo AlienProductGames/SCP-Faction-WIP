@@ -1,0 +1,8 @@
+    <string_table>    
+            <string id="stalker_scp_faction_trader_name">
+                <text>Dusk</text>
+            </string>
+        <string id="stalker_scp_faction_trader_bio">
+            <text> Test </text>
+        </string>
+    </string_table>

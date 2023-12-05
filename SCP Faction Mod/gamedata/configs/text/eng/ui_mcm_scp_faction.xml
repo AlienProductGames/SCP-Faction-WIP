@@ -1,0 +1,11 @@
+<string_table>
+    <string id="ui_mcm_menu_scp_faction">
+            <text>SCP Faction Mod</text>
+    </string>
+    <string id="ui_mcm_scp_faction_murder_mode">
+            <text>5K Mode</text>
+    </string>
+    <string id="ui_mcm_scp_faction_murder_mode_desc">
+            <text>Turns the Foundation against everyone</text>
+    </string>
+</string_table>

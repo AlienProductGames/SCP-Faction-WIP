@@ -1,0 +1,66 @@
+-- The name of this file needs to end with "_mcm" so it is loaded (by MCM) before entering a level. THIS MAKES MCM A HARD REQUIREMENT!
+
+--=================== ui_mm_faction_select ====================--
+ui_mm_faction_select.passwords["scp"] = "31_46_25" -- S C P
+
+function ui_mm_faction_select.UINewGame.OnFaction_scp(self)
+	self:OnFactionSelect("scp")
+end
+
+local orig_main_controls = ui_mm_faction_select.UINewGame.Main_Controls
+function ui_mm_faction_select.UINewGame.Main_Controls(self)
+	self.table_faction["scp"] = true 
+
+	-- Determine the faction button position in the faction select window
+	-- TODO: This only works flawless if the hidden factions are unlocked in the following order: Renegade, Sin, UNISG
+
+	local AMOUNT_FACTIONS_AVAILABLE_BY_DEFAULT = 9
+	local MAX_COL = 3 -- The vanilla window only displays 3 columns of factions
+
+	-- Add amount of unlocked factions
+	local amount_playable_factions = AMOUNT_FACTIONS_AVAILABLE_BY_DEFAULT
+	local cfg = axr_main.config
+	if cfg:r_value("unlocked_factions", "renegade", 1) == true then
+		amount_playable_factions = amount_playable_factions + 1
+	end
+	if cfg:r_value("unlocked_factions", "greh", 1) == true then
+		amount_playable_factions = amount_playable_factions + 1
+	end
+	if cfg:r_value("unlocked_factions", "isg", 1) == true then
+		amount_playable_factions = amount_playable_factions + 1
+	end
+
+	-- Determine position
+	local row = math.floor(amount_playable_factions / MAX_COL) + 1
+	local col = (amount_playable_factions % MAX_COL) + 1
+
+	-- Set position
+	self.faction_cell["scp"] = { row = row, col = col }
+
+	orig_main_controls(self)
+end
+
+--======================= ui_options ========================--
+local t = {}
+copy_table(t, ui_options.options[5].gr[3].gr[3].gr)
+ui_options.options[5].gr[3].gr[16] = { id = "scp", sh = true, presets = { "warfare_default", "warfare_yoko" }, id_gr = "warfare_faction", apply_to_all = true, gr = t }
+
+
+--====================== mod settings ========================--
+
+local defaults = {
+	["murder_mode"] = false
+
+}
+
+function get_config(key)
+    if ui_mcm then return ui_mcm.get("scp_faction/" .. key) else return defaults[key] end
+end
+
+function on_mcm_load()
+    return {
+        id = "scp_faction", sh = true, gr = {
+            { id = "murder_mode", type = "check", val = 1, def = false }
+        }
+    }
+end

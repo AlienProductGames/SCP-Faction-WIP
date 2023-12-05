@@ -1,0 +1,55 @@
+local murder_mode = false
+
+function on_option_change()
+    murder_mode = scp_faction_mcm.get_config("murder_mode")
+        if murder_mode then
+        
+            local fac_1 = {"scp", "actor_scp"}
+            local fac_2 = {"killer","actor_killer"}
+            local fac_3 = {"army","actor_army"}
+            local fac_4 = {"freedom","actor_freedom"}
+            local fac_5 = {"ecolog","actor_ecolog"}
+            local fac_6 = {"stalker","actor_stalker"}
+            local fac_7 = {"csky","actor_csky"}
+            for i=1,2 do
+                for j=1,2 do
+                    game_relations.set_factions_community(fac_1[i], fac_2[j], -2000)
+                    game_relations.set_factions_community(fac_2[j], fac_1[i], -2000)
+                    game_relations.set_factions_community(fac_1[i], fac_3[j], -2000)
+                    game_relations.set_factions_community(fac_3[j], fac_1[i], -2000)
+                    game_relations.set_factions_community(fac_1[i], fac_4[j], -2000)
+                    game_relations.set_factions_community(fac_4[j], fac_1[i], -2000)
+                    game_relations.set_factions_community(fac_1[i], fac_5[j], -2000)
+                    game_relations.set_factions_community(fac_5[j], fac_1[i], -2000)
+                    game_relations.set_factions_community(fac_1[i], fac_6[j], -2000)
+                    game_relations.set_factions_community(fac_6[j], fac_1[i], -2000)
+                    game_relations.set_factions_community(fac_1[i], fac_7[j], -2000)
+                    game_relations.set_factions_community(fac_7[j], fac_1[i], -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_1[i] .. "_" .. fac_2[j] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_2[j] .. "_" .. fac_1[i] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_1[i] .. "_" .. fac_3[j] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_3[j] .. "_" .. fac_1[i] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_1[i] .. "_" .. fac_4[j] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_4[j] .. "_" .. fac_1[i] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_1[i] .. "_" .. fac_5[j] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_5[j] .. "_" .. fac_1[i] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_1[i] .. "_" .. fac_6[j] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_6[j] .. "_" .. fac_1[i] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_1[j] .. "_" .. fac_7[i] .. "_relations"), -2000)
+                    save_var( db.actor, ("drx_df_" .. fac_7[j] .. "_" .. fac_1[i] .. "_relations"), -2000)
+                end
+            end
+
+        
+    end
+        
+end
+
+function actor_on_first_update()
+    on_option_change()
+end
+
+function on_game_start()
+    RegisterScriptCallback("on_option_change", on_option_change)
+    RegisterScriptCallback("actor_on_first_update", actor_on_first_update)
+end

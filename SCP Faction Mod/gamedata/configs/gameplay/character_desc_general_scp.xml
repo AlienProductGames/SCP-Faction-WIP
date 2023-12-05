@@ -1,91 +1,105 @@
+<specific_character id="actor_scp" no_random = "1">
+<name>GENERATE_NAME_stalker</name>
+<icon>ui_inGame2_neutral_0</icon>
+<map_icon x="2" y="5"></map_icon>
+<team>Actor</team>
+<supplies></supplies>
+<money min="500"  max="500"  infinitive="0"/>
+<class>actor</class>
+<community>actor_scp</community>
+<rank>0</rank>
+<reputation>0</reputation>
+<visual>actors\stalker_neutral\stalker_neutral_0</visual>
+<terrain_sect>stalker_terrain</terrain_sect>
+</specific_character>
 
 <specific_character id="sim_default_scp_0_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_merc_sun1</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_mercsun_old</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_0_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_merc_sun1_merc</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
 		
 <specific_character id="sim_default_scp_0_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_npc_u_stalker_ki_mask</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_0_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_0.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_0</visual>
 </specific_character>
@@ -93,154 +107,154 @@
 
 <specific_character id="sim_default_scp_1_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_sun1</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_mercsun_old</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_sun1_merc</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_stalker_merc_seva_balaklava</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_neutral_2_gp5</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_13" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_coyote</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_gas_mask</visual>
 </specific_character>
 
 <specific_character id="sim_default_scp_1_default_14" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_npc_u_stalker_ki_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_15" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_16" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_npc_u_stalker_ki_head_1</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_17" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_18" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_sun1</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_19" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_mercsun_old</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_20" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_21" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
     <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
@@ -249,325 +263,325 @@
 
 <specific_character id="sim_default_scp_2_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc2a</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc2b</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc2c</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercen_2_mask</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercen2a_mask</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercen2b_mask</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercen2c_mask</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_sun1</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_sun1</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_mercsun_old</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_sun1_old</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_2_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_sun1_merc</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_sun1_merc</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_stalker_merc_seva_balaklava</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_ps5m</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_neutral_2_gp5</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2a_gp5</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_13" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_loner_light_metro_suit</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_6</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
  	
 <specific_character id="sim_default_scp_2_default_14" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_npc_u_stalker_ki_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_ki_mask</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_15" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercb2</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_16" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_npc_u_stalker_ki_head_1</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2_balloon_helm_tactic</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_17" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_mercen_2_mask</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2_balloon_on_helm_tactic</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_18" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_sun1</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2_helm_battle</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_19" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_mercsun_old</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2_helm_battle_nogas</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_20" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2_helm_tactic</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_2_default_21" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_2.xml"
-    <icon>ui_inGame2_merc_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_2_helm_tactic_nogas</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 
 <specific_character id="sim_default_scp_3_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_3.xml"
-    <icon>ui_inGame2_mercenary3</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercenary3</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_3_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_3.xml"
-    <icon>ui_inGame2_mercenary3</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercenary4</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_3_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_3.xml"
-    <icon>ui_inGame2_mercenary3</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercenary3</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_3_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_3.xml"
-    <icon>ui_inGame2_mercenary3</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercenary4</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_scp_3_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_3.xml"
-    <icon>ui_inGame2_soldier_strela_3a</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_berill_antigaz</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_scp_3_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_3.xml"
-    <icon>ui_inGame2_soldier_strela_2a</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_berill_specnaz</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_3_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_3.xml"
-    <icon>ui_inGame2_loner_light_metro_suit</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_6</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 
 
 <specific_character id="sim_default_scp_4_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_4</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_4_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc4a</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_4_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4a</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercexo_4</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_4_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4a</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercexo4a</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_scp_4_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_4</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_4_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc4a</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_4_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4a</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercexo_4</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_4_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_merc_4a</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_mercexo4a</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_4_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_stalker_merc_skat</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_military</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_4_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_npc_u_stalker_militari_antigas_2</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_military</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_scp_4_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_stalker_merc_skat</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_4_skat</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_4_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_stalker_merc_gas</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_aztec</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_4_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_stalker_merc_gas</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_aztec</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_4_default_13" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_stalker_merc_exo_proto</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_exo_proto</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_4_default_14" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_stalker_merc_exoseva</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_exoseva</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_4_default_15" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_stalker_merc_skat</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc_4_skat</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>
  
 <specific_character id="sim_default_scp_4_default_16" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_4.xml"
-    <icon>ui_inGame2_nosorog</icon>
+    <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_merc4nosorog</visual>
+    <visual>actors\stalker_scp\stalker_scp_1</visual>
 </specific_character>

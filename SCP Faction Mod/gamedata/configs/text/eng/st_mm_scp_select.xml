@@ -1,0 +1,13 @@
+        <string_table>
+            
+            <string id="st_faction_scp">
+                <text>Foundation</text>
+            </string>
+            <string id="st_faction_scp_desc">
+                <text>%c[0,150,150,150]You are a lvl 1 clearance member of the Foundation.\n
+                \nThe foundation has entered the zone and is looking to study it.\n
+                \nYou are tasked to research the Zone and its various factions by any means deemed nessasary.\n
+                \nYou are to report to the outpost leader for your tasks within the zone.
+                </text>
+            </string>
+        </string_table>
