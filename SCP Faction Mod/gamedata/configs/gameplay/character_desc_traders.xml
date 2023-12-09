@@ -18,34 +18,10 @@
             <reputation>2200</reputation>
 
 	    <actor_dialog>dm_init_trader</actor_dialog>
-		<actor_dialog>dushman_questlines_about_dialog</actor_dialog>
-		<actor_dialog>drx_sl_cit_killers_merc_trader_stalker_game_start_dialog_1</actor_dialog>
-		<actor_dialog>drx_isg_cit_killers_merc_trader_stalker_game_start_dialog_1</actor_dialog>
-		<!-- LTTZ -->
-		<actor_dialog>hb_dushman_isg_intel_dialog</actor_dialog>
-		<actor_dialog>dushman_living_legend</actor_dialog> 
-		<actor_dialog>dushman_living_legend_finish</actor_dialog>
-		<actor_dialog>dushman_mortal_sin</actor_dialog>
-		<actor_dialog>dushman_mortal_sin_envoy</actor_dialog>
-		<actor_dialog>dushman_mortal_sin_report</actor_dialog>
-		<actor_dialog>dushman_mortal_sin_ambush</actor_dialog>
-		<actor_dialog>dushman_mortal_sin_zone_hero</actor_dialog>
-		<actor_dialog>dushman_operation_afterglow</actor_dialog>
-		<actor_dialog>dushman_operation_afterglow_transmission_report</actor_dialog>
-		<!-- LTTZ -->
-		<actor_dialog>drx_sl_cf_task_completed_dialog</actor_dialog>
-		<actor_dialog>drx_sl_task_completed_dialog</actor_dialog>
-		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
-		<actor_dialog>drx_sl_cit_killers_merc_trader_stalker_meet_dialog</actor_dialog>
-		<actor_dialog>dm_broker_dialog</actor_dialog>
-		<actor_dialog>dm_important_documents</actor_dialog>
-        <actor_dialog>buy_route</actor_dialog>
 		<!--actor_dialog>buy_extra_items</actor_dialog-->
 		<actor_dialog>debt_register</actor_dialog>
 		<actor_dialog>debt_pay_off</actor_dialog>
-		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
-		<actor_dialog>drx_sl_change_faction_dialog</actor_dialog>
-        <actor_dialog>find_blackbox_mlr_reward_killer</actor_dialog> <!-- MLR -->		
+		<actor_dialog>dm_ordered_task_dialog</actor_dialog>		
 		<actor_dialog>actor_break_dialog</actor_dialog>
         </specific_character>
 </xml>

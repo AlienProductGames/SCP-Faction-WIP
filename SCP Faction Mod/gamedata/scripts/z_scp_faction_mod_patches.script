@@ -1,9 +1,9 @@
 ---==================================================================================================================---
 ---                                                                                                                  ---
----    Original Author(s) :  Tosox	                                                                                 ---
+---    Original Author(s) :  Tosox, AlienProduct	                                                                                 ---
 ---    Edited : N/A                                                                                                  ---
 ---    Date : 15/10/2023                                                                                             ---
----    License : Proprietary                                                                                         ---
+---    						                                                                                         ---
 ---                                                                                                                  ---
 ---==================================================================================================================---
 
@@ -148,8 +148,21 @@ table.insert(warfare_factions.all_factions, "scp")
 warfare_factions.factions_p["scp"] = true
 
 --======================== warfare ============================--
---warfare.registered_squads["scp"] = {}
+warfare.registered_squads["scp"] = {}
 
+function warfare.get_squad_section_faction(squad_section)
+	if string.find(squad_section,"scp") or string.find(squad_section,"foundation") then
+		return "scp"
+	end
+--================= ui_warfare_options_hints ===================--
+ui_warfare_options_hints.squad_names["eng"] = {
+	["scp_sim_squad_novice"]                                     	 = "scp (Novice)",
+	["scp_sim_squad_novice_3_4"]                                 	 = "scp (Novice)",
+	["scp_sim_squad_advanced"]                                   	 = "scp (Advanced)",
+	["scp_sim_squad_advanced_3_4"]                               	 = "scp (Advanced)",
+	["scp_sim_squad_veteran"]                                    	 = "scp (Veteran)",
+	["scp_sim_squad_veteran_3_4"]                                	 = "scp (Veteran)",
+}
 --=================== sim_squad_warfare =======================--
 sim_squad_warfare.squad_icons["scp"] = "warfare_scp_spot"
 
@@ -215,3 +228,22 @@ function ui_debug_launcher.UIDebug_FactionSwitch.InitControls(self)
 	table.insert(self.factions, "scp")
 	orig_debug_launcher_init_controls(self)
 end
+
+--=================== tasks_ ====================================--
+
+--=================== _bounty ====================================--
+tasks_bounty.faction_list["scp"] = "scp"
+
+--=================== _fetch ====================================--
+tasks_fetch.faction_list["scp"] = "scp"
+table.insert(tasks_fetch.patch_general, "scp", 
+{
+	["bandit_patch"]     = 0,
+	["renegade_patch"]   = 0,
+	["monolith_patch"]   = 0,
+	["dolg_patch"]       = 0,
+})
+table.insert(tasks_fetch.patch_general, "dolg", 
+{
+	["scp_patch"]        = 0,
+})

@@ -1,0 +1,57 @@
+<string_table>
+    <!-- bounty -->
+    <string id="simulation_task_scp_1_name">
+        <text>Bounty</text>
+    </string>
+    <string id="simulation_task_scp_1_text">
+        <text>test</text>
+    </string>
+    <string id="simulation_task_scp_1_about">
+        <text>test2</text>
+    </string>
+    <string id="simulation_task_scp_1_finish">
+        <text>finish</text>
+    </string>
+
+
+    <string id="simulation_task_scp_2_name">
+        <text>Bounty</text>
+    </string>
+    <string id="simulation_task_scp_2_text">
+        <text>test</text>
+    </string>
+    <string id="simulation_task_scp_2_about">
+        <text>test2</text>
+    </string>
+    <string id="simulation_task_scp_2_finish">
+        <text>finish</text>    
+    </string>
+
+    <string id="stalker_scp_faction_trader_task_scp_name">
+        <text>Bounty</text>
+    </string>
+    <string id="stalker_scp_faction_trader_task_scp_text">
+        <text>Got a little problem for you</text>
+    </string>
+    <string id="stalker_scp_faction_trader_task_scp_about">
+        <text>Got a little problem for you to deal with.</text>
+    </string>
+    <string id="stalker_scp_faction_trader_task_scp_finish">
+        <text>finish</text>
+    </string>
+
+    <!-- hunt -->
+    <string id="simulation_task_scp_3_name">
+        <text>delivery</text>
+    </string>
+    <string id="simulation_task_scp_3_text">
+        <text>test</text>
+    </string>
+    <string id="simulation_task_scp_3_about">
+        <text>test2</text>
+    </string>
+    <string id="simulation_task_scp_3_finish">
+        <text>finish</text>
+    </string>
+
+</string_table>
