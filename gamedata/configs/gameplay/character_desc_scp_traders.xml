@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding="UTF-8"?>   
 <xml>
 
-        <specific_character id="stalker_scp_faction_trader" team_default="1">
+    <specific_character id="stalker_scp_faction_trader" team_default="1">
             <name>stalker_scp_faction_trader_name</name>
             <bio>stalker_scp_faction_trader_bio</bio>
             <icon>Zone_Wonderer_portrait</icon>
@@ -17,11 +17,15 @@
             <money min="0" max="0" infinitive="0"/>
             <reputation>2200</reputation>
 
+        <actor_dialog>scp_ll_storyline_1</actor_dialog>
 	    <actor_dialog>dm_init_trader</actor_dialog>
+		<!-- LTTZ -->
 		<!--actor_dialog>buy_extra_items</actor_dialog-->
 		<actor_dialog>debt_register</actor_dialog>
 		<actor_dialog>debt_pay_off</actor_dialog>
-		<actor_dialog>dm_ordered_task_dialog</actor_dialog>		
+		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
+		<actor_dialog>drx_sl_change_faction_dialog</actor_dialog>
+        <actor_dialog>find_blackbox_mlr_reward_killer</actor_dialog> <!-- MLR -->		
 		<actor_dialog>actor_break_dialog</actor_dialog>
-        </specific_character>
+    </specific_character>
 </xml>

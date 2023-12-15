@@ -122,3 +122,29 @@ condlist_0 		= {!task_giver_alive(simulation_task_scp_4)} fail
 on_job_descr = %=on_init_fate_task(simulation_task_scp_4:detector_radio:broken_pda:k01_darkscape:k02_trucks_cemetery:y04_pole:l06_rostok:zaton:jupiter:pripyat)%
 on_complete = %=inc_goodwill_by_tasker_comm(simulation_task_scp_4:50) =reward_stash(true) =reward_random_money(10500:18500) =reward_random_item(beer:vodka:vodka2:cigarettes_lucky:cigarettes_russian) -simulation_task_scp_4_dead_spawned -simulation_task_scp_4_item_spawned -simulation_task_scp_4_target_found =remove_quest_item(simulation_task_scp_4) =forget_dead_npcs(simulation_task_scp_4) =pstor_reset(simulation_task_scp_4)%
 on_fail 	= %=remove_quest_item(simulation_task_scp_4) -simulation_task_scp_4_dead_spawned -simulation_task_scp_4_target_found -simulation_task_scp_4_item_spawned =forget_dead_npcs(simulation_task_scp_4) =pstor_reset(simulation_task_scp_4)%
+
+[simulation_task_scp_5]
+
+icon = ui_inGame2_D_Sisshik
+storyline = false
+prior = 20
+sim_communities = scp
+repeat_timeout = 21600
+;precondition = true
+
+title = simulation_task_scp_5_name
+title_functor = general_fetch_task
+descr = simulation_task_scp_5_text
+descr_functor = general_fetch_task
+job_descr = simulation_task_scp_5_about
+fetch_descr = simulation_task_scp_5_fetch_about
+task_complete_descr = simulation_task_scp_5_fetch_finish
+
+stage_complete = 1
+target_functor = general_fetch_task
+status_functor = actor_has_fetch_item
+condlist_0 = {!task_giver_alive(simulation_task_scp_5)} fail
+
+fetch_func = %=setup_fetch_task(simulation_task_scp_5_fetch:supplies:1:4)%
+on_complete = %=fetch_reward_and_remove(simulation_task_scp_5_fetch:0.8) =reward_stash(true) =complete_task_inc_goodwill(50:scp) =inc_task_stage(simulation_task_scp_5) =pstor_reset(simulation_task_scp_5_fetch) =drx_sl_unregister_task_giver(simulation_task_scp_5) =drx_sl_reset_stored_task(simulation_task_scp_5)%
+on_fail = %=fail_task_dec_goodwill(25:scp) =pstor_reset(simulation_task_scp_5_fetch) =drx_sl_unregister_task_giver(simulation_task_scp_5) =drx_sl_reset_stored_task(simulation_task_scp_5)%

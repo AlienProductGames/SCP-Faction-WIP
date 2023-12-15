@@ -1,0 +1,28 @@
+<string_table>
+    <string id = "scp_ll_pda_message">
+        <text>
+        Get your ass over here, I got news for a valuable stalker I want you to track down. Don't keep me waiting.
+        </text>
+    </string>
+
+    <string id = "scp_ll_start_1">
+        <text>
+        I got your message. What's this about a valuable stalker?
+        </text>
+    </string>
+
+    <string id = "scp_ll_dusk_reply_1">
+        <text>
+        About time, hope you had enjoyed the ride here as thats the only ride you'll get. We got word from the Mercenaries that theres this stalker named "Strelok" and as far as you need to know,
+        He has more knowledge about this place than any other stalker. I want you to find him and bring him back here for questioning... The Mercenaries recommend looking to the swamps southwest from here,
+        They told us that a friend of strelok resides at the collapsed railway bridge.
+        </text>
+    </string>
+
+    <string id = "scp_ll_start_2">
+        <text>
+        Will do.
+        </text>
+    </string>
+
+</string_table>

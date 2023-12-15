@@ -1,6 +1,6 @@
 ---==================================================================================================================---
 ---                                                                                                                  ---
----    Original Author(s) :  Tosox, AlienProduct	                                                                                 ---
+---    Original Author(s) :  Tosox, AlienProduct	                                                                 ---
 ---    Edited : N/A                                                                                                  ---
 ---    Date : 15/10/2023                                                                                             ---
 ---    						                                                                                         ---
@@ -151,6 +151,11 @@ warfare_factions.factions_p["scp"] = true
 warfare.registered_squads["scp"] = {}
 
 function warfare.get_squad_section_faction(squad_section)
+	if string.find(squad_section,"scp") or string.find(squad_section,"foundation") then
+		return "scp"
+	end
+
+function warfare.is_squad_section_enemy_of_faction(squad_section, faction)
 	if string.find(squad_section,"scp") or string.find(squad_section,"foundation") then
 		return "scp"
 	end
