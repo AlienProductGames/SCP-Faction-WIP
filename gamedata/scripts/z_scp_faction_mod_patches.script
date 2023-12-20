@@ -234,6 +234,31 @@ function ui_debug_launcher.UIDebug_FactionSwitch.InitControls(self)
 	orig_debug_launcher_init_controls(self)
 end
 
+--====================== dialogs ================================--
+
+function dialogs.actor_scp(first_speaker, second_speaker)
+	return character_community(db.actor) == "actor_scp"
+end
+
+function dialogs.actor_not_scp(first_speaker, second_speaker)
+    return character_community(db.actor) ~= "actor_scp"
+end
+
+function dialogs.actor_true_scp(first_speaker, second_speaker)
+    return get_actor_true_community() == "scp"
+end
+
+function dialogs.actor_not_true_scp(first_speaker, second_speaker)
+    return get_actor_true_community() ~= "scp"
+end
+
+function dialogs.npc_scp(first_speaker, second_speaker)
+	local npc = who_is_npc(first_speaker, second_speaker)
+	return character_community(npc) == "scp"
+end
+
+dialogs.story_factions["scp"] = true
+
 --=================== tasks_ ====================================--
 
 --=================== _bounty ====================================--

@@ -31,5 +31,9 @@
         <class>stalker_scp_faction_trader</class>
         <specific_character>stalker_scp_faction_trader</specific_character>
     </character>
+	<character id="stalker_scp_faction_mechanic">
+        <class>stalker_scp_faction_mechanic</class>
+        <specific_character>stalker_scp_faction_mechanic</specific_character>
+    </character>
 
 </xml>
