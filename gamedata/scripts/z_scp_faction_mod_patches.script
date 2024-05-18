@@ -266,14 +266,15 @@ tasks_bounty.faction_list["scp"] = "scp"
 
 --=================== _fetch ====================================--
 tasks_fetch.faction_list["scp"] = "scp"
-table.insert(tasks_fetch.patch_general, "scp", 
+table.insert(tasks_fetch.patch_general, "scp") 
 {
 	["bandit_patch"]     = 0,
 	["renegade_patch"]   = 0,
 	["monolith_patch"]   = 0,
 	["dolg_patch"]       = 0,
-})
-table.insert(tasks_fetch.patch_general, "dolg", 
+}
+
+table.insert(tasks_fetch.patch_general, "dolg") 
 {
 	["scp_patch"]        = 0,
-})
+}

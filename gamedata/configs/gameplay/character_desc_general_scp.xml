@@ -144,35 +144,35 @@
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_scp_1_default_10" team_default = "1">
@@ -235,14 +235,14 @@
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_19" team_default = "1">
 #include "gameplay\profiles\character_desc_scp_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\killer_3\</snd_config>
-    <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+    <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
 </specific_character>
 	
 <specific_character id="sim_default_scp_1_default_20" team_default = "1">

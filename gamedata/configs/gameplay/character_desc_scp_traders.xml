@@ -5,7 +5,7 @@
             <name>stalker_scp_faction_trader_name</name>
             <bio>stalker_scp_faction_trader_bio</bio>
             <icon>Zone_Wonderer_portrait</icon>
-            <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+            <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
             <snd_config>characters_voice\human\killer_3\</snd_config>
 
             <map_icon x="1" y="0"></map_icon>
@@ -20,6 +20,8 @@
         <actor_dialog>scp_ll_storyline_1</actor_dialog>
 	    <actor_dialog>dm_init_trader</actor_dialog>
 		<!-- LTTZ -->
+		<actor_dialog>drx_sl_task_completed_dialog</actor_dialog>
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 		<!--actor_dialog>buy_extra_items</actor_dialog-->
 		<actor_dialog>debt_register</actor_dialog>
 		<actor_dialog>debt_pay_off</actor_dialog>
@@ -33,7 +35,7 @@
             <name>stalker_scp_faction_mechanic_name</name>
             <bio>stalker_scp_faction_mechanic_bio</bio>
             <icon>Zone_Wonderer_portrait</icon>
-            <visual>actors\stalker_scp\stalker_scp_1_no_nvm</visual>
+            <visual>actors\stalker_scp\stalker_scp_1_no_nvg</visual>
             <snd_config>characters_voice\human\killer_3\</snd_config>
 
             <map_icon x="1" y="0"></map_icon>

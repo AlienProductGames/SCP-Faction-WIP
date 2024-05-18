@@ -39,9 +39,10 @@ function on_option_change()
                     save_var( db.actor, ("drx_df_" .. fac_7[j] .. "_" .. fac_1[i] .. "_relations"), -2000)
                 end
             end
+            
 
         
-    end
+        end
         
 end
 

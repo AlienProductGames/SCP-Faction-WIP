@@ -46,7 +46,7 @@ copy_table(t, ui_options.options[5].gr[3].gr[3].gr)
 ui_options.options[5].gr[3].gr[16] = { id = "scp", sh = true, presets = { "warfare_default", "warfare_yoko" }, id_gr = "warfare_faction", apply_to_all = true, gr = t }
 
 
---====================== mod settings ========================--
+--====================== Mod Settings ========================--
 
 local defaults = {
 	["murder_mode"] = false

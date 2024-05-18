@@ -54,4 +54,31 @@
         <text>Heres your reward</text>
     </string>
 
+    <!-- Find missing squad -->
+    <string id="simulation_task_scp_4_name">
+        <text>Find missing squad</text>
+    </string>
+    <string id="simulation_task_scp_4_text">
+        <text>we got a missing squad, think you can go find them?</text>
+    </string>
+    <string id="simulation_task_scp_4_about">
+        <text>we got a missing squad, think you can go find them?</text>
+    </string>
+    <string id="simulation_task_scp_4_finish">
+        <text>Heres your reward</text>
+    </string>
+
+        <string id="simulation_task_scp_5_name">
+        <text>Find missing squad</text>
+    </string>
+    <string id="simulation_task_scp_5_text">
+        <text>we got a missing squad, think you can go find them?</text>
+    </string>
+    <string id="simulation_task_scp_5_about">
+        <text>we got a missing squad, think you can go find them?</text>
+    </string>
+    <string id="simulation_task_scp_5_finish">
+        <text>Heres your reward</text>
+    </string>
+
 </string_table>
