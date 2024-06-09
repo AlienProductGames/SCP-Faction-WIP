@@ -1,0 +1,11 @@
+<string_table>
+    <string id="ui_mcm_menu_fndn_faction">
+            <text>fndn Faction Mod</text>
+    </string>
+    <string id="ui_mcm_fndn_faction_murder_mode">
+            <text>5K Mode</text>
+    </string>
+    <string id="ui_mcm_fndn_faction_murder_mode_desc">
+            <text>Turns the Foundation against all other factions</text>
+    </string>
+</string_table>

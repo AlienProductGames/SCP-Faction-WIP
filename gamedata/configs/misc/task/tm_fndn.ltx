@@ -1,0 +1,150 @@
+;------------------------------------------------
+;-- Bounty
+;------------------------------------------------
+[simulation_task_fndn_1]
+
+icon = ui_inGame2_Odin_vistrel
+storyline = false
+prior = 45
+sim_communities = fndn
+repeat_timeout = 21600
+;precondition = true
+
+title = simulation_task_fndn_1_name
+descr = simulation_task_fndn_1_text
+job_descr = simulation_task_fndn_1_about
+task_complete_descr = simulation_task_fndn_1_finish
+
+stage_complete = 1
+target_functor = general_bounty_task
+status_functor = bounty_task
+condlist_0 = {!task_giver_alive(simulation_task_fndn_1)} fail
+
+on_job_descr = %=setup_bounty_task(simulation_task_fndn_1:true:false:fndn)%
+on_complete = %=reward_random_money(8000:9000) =reward_random_item(grenade_rgd5:grenade_f1:ammo_m209:mine_new:ied_rpg_new:ied_new) =reward_random_item(grenade_rgd5:grenade_f1:ammo_m209:mine_new:ied_rpg_new:ied_new) =reward_stash(true) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(simulation_task_fndn_1) =drx_sl_unregister_task_giver(simulation_task_fndn_1) =drx_sl_reset_stored_task(simulation_task_fndn_1)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(simulation_task_fndn_1) =drx_sl_reset_stored_task(simulation_task_fndn_1)%
+
+[simulation_task_fndn_2]
+
+icon = ui_inGame2_Odin_vistrel
+storyline = false
+prior = 45
+sim_communities = fndn
+repeat_timeout = 21600
+;precondition = true
+
+title = simulation_task_fndn_2_name
+descr = simulation_task_fndn_2_text
+job_descr = simulation_task_fndn_2_about
+task_complete_descr = simulation_task_fndn_2_finish
+
+stage_complete = 1
+target_functor = general_bounty_task
+status_functor = bounty_task
+condlist_0 = {!task_giver_alive(simulation_task_fndn_2)} fail
+
+on_job_descr = %=setup_bounty_task(simulation_task_fndn_2:false:false:dolg)%
+on_complete = %=reward_random_money(7500:8500) =reward_random_item(tushonka:protein:beans:chili:nuts:mre:ration_ru:ration_ukr) =reward_random_item(grenade_rgd5:grenade_f1:ammo_m209:mine_new:ied_rpg_new:ied_new) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(simulation_task_fndn_2) =drx_sl_unregister_task_giver(simulation_task_fndn_2) =drx_sl_reset_stored_task(simulation_task_fndn_2)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(simulation_task_fndn_2) =drx_sl_reset_stored_task(simulation_task_fndn_2)%
+
+[stalker_fndn_faction_trader_task_fndn]
+
+icon = ui_inGame2_Odin_vistrel
+storyline = false
+prior = 45
+sim_communities = fndn
+repeat_timeout = 21600
+;precondition = true
+
+title = stalker_fndn_faction_trader_task_fndn_name
+descr = stalker_fndn_faction_trader_task_fndn_text
+job_descr = stalker_fndn_faction_trader_task_fndn_about
+task_complete_descr = stalker_fndn_faction_trader_task_fndn_finish
+
+stage_complete = 1
+target_functor = general_bounty_task
+status_functor = bounty_task
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_trader_task_fndn)} fail
+
+on_job_descr = %=setup_bounty_task(stalker_fndn_faction_trader_task_fndn:true:false:fndn)%
+on_complete = %=reward_random_money(8000:9000) =reward_random_item(grenade_rgd5:grenade_f1:ammo_m209:mine_new:ied_rpg_new:ied_new) =reward_random_item(grenade_rgd5:grenade_f1:ammo_m209:mine_new:ied_rpg_new:ied_new) =reward_stash(true) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(stalker_fndn_faction_trader_task_fndn) =drx_sl_unregister_task_giver(stalker_fndn_faction_trader_task_fndn) =drx_sl_reset_stored_task(stalker_fndn_faction_trader_task_fndn)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(stalker_fndn_faction_trader_task_fndn) =drx_sl_reset_stored_task(stalker_fndn_faction_trader_task_fndn)%
+
+;------------------------------------------------
+;-- Delivery Service
+;------------------------------------------------
+[simulation_task_fndn_3]
+icon = ui_inGame2_Osobiy_zakaz
+storyline = false
+prior = 120
+sim_communities = fndn
+repeat_timeout = 14400
+;precondition = true
+
+title = simulation_task_fndn_3_name
+descr = simulation_task_fndn_3_text
+descr_functor = general_delivery_desc
+job_descr = simulation_task_fndn_3_about
+task_complete_descr = simulation_task_fndn_3_finish
+
+stage_complete = 2
+target_functor = general_delivery
+status_functor = delivery_task
+
+on_job_descr = %=on_init_delivery_task(simulation_task_fndn_3:false:true:quest_package_1:quest_package_2:quest_package_3)%
+on_complete = %=remove_delivery_item(simulation_task_fndn_3) =inc_goodwill_by_tasker_comm(simulation_task_fndn_3:50) =reward_random_money_by_dist(simulation_task_fndn_3:2500:3500:0.2) =reward_random_item(beer:vodka:vodka2:cigarettes_lucky:cigarettes_russian) -simulation_task_fndn_3_quest_item_received =pstor_reset(simulation_task_fndn_3)%
+on_fail = %-simulation_task_fndn_3_quest_item_received =decrease_rep(50) =dec_goodwill_by_tasker_id(simulation_task_fndn_3:25) =pstor_reset(simulation_task_fndn_3)%
+on_cancel = %=remove_delivery_item(simulation_task_fndn_3)%
+
+;------------------------------------------------
+;-- Find the Missing Squad
+;------------------------------------------------
+[simulation_task_fndn_4]
+icon = ui_inGame2_PD_Torgovets_informatsiey
+storyline = false
+prior = 120
+sim_communities = fndn
+repeat_timeout = 14400
+;precondition = true
+
+title = simulation_task_fndn_4_name
+title_functor = general_fate_name
+descr = simulation_task_fndn_4_text
+descr_functor = general_fate_desc
+job_descr = simulation_task_fndn_4_about
+task_complete_descr = simulation_task_fndn_4_finish
+
+stage_complete 	= 4
+target_functor 	= general_fate
+status_functor 	= fate_task
+condlist_0 		= {!task_giver_alive(simulation_task_fndn_4)} fail
+
+on_job_descr = %=on_init_fate_task(simulation_task_fndn_4:detector_radio:broken_pda:k01_darkscape:k02_trucks_cemetery:y04_pole:l06_rostok:zaton:jupiter:pripyat)%
+on_complete = %=inc_goodwill_by_tasker_comm(simulation_task_fndn_4:50) =reward_stash(true) =reward_random_money(10500:18500) =reward_random_item(beer:vodka:vodka2:cigarettes_lucky:cigarettes_russian) -simulation_task_fndn_4_dead_spawned -simulation_task_fndn_4_item_spawned -simulation_task_fndn_4_target_found =remove_quest_item(simulation_task_fndn_4) =forget_dead_npcs(simulation_task_fndn_4) =pstor_reset(simulation_task_fndn_4)%
+on_fail 	= %=remove_quest_item(simulation_task_fndn_4) -simulation_task_fndn_4_dead_spawned -simulation_task_fndn_4_target_found -simulation_task_fndn_4_item_spawned =forget_dead_npcs(simulation_task_fndn_4) =pstor_reset(simulation_task_fndn_4)%
+
+[simulation_task_fndn_5]
+
+icon = ui_inGame2_D_Sisshik
+storyline = false
+prior = 20
+sim_communities = fndn
+repeat_timeout = 21600
+;precondition = true
+
+title = simulation_task_fndn_5_name
+title_functor = general_fetch_task
+descr = simulation_task_fndn_5_text
+descr_functor = general_fetch_task
+job_descr = simulation_task_fndn_5_about
+fetch_descr = simulation_task_fndn_5_fetch_about
+task_complete_descr = simulation_task_fndn_5_fetch_finish
+
+stage_complete = 1
+target_functor = general_fetch_task
+status_functor = actor_has_fetch_item
+condlist_0 = {!task_giver_alive(simulation_task_fndn_5)} fail
+
+fetch_func = %=setup_fetch_task(simulation_task_fndn_5_fetch:supplies:1:4)%
+on_complete = %=fetch_reward_and_remove(simulation_task_fndn_5_fetch:0.8) =reward_stash(true) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(simulation_task_fndn_5) =pstor_reset(simulation_task_fndn_5_fetch) =drx_sl_unregister_task_giver(simulation_task_fndn_5) =drx_sl_reset_stored_task(simulation_task_fndn_5)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =pstor_reset(simulation_task_fndn_5_fetch) =drx_sl_unregister_task_giver(simulation_task_fndn_5) =drx_sl_reset_stored_task(simulation_task_fndn_5)%

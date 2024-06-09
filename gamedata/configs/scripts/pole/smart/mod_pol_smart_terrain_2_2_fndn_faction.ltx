@@ -1,0 +1,22 @@
+![smart_terrain]
+squad_count = 4
+max_population = 12
+respawn_idle = 86400
+arrive_dist = 30
+
+![respawn@pol_smart_terrain_2_2]
+!spawn_burer
+spawn_fndn@novice
+spawn_fndn@advanced
+
+@[spawn_fndn@novice]
+spawn_squads = fndn_sim_squad_novice
+spawn_num = 3
+
+@[spawn_fndn@advanced]
+spawn_squads = fndn_sim_squad_advanced
+spawn_num = 3
+
+@[exclusive]
+fndn_faction_trader = pole\fndn_faction_trader.ltx
+fndn_faction_mechanic = pole\fndn_faction_mechanic.ltx

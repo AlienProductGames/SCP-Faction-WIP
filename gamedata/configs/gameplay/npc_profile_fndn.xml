@@ -1,0 +1,39 @@
+
+<xml> 
+            <character id="actor_fndn">
+                <class>actor</class>
+                <specific_character>actor_fndn</specific_character>
+            </character>
+
+    <character id="sim_default_fndn_0">
+		<class>sim_default_fndn_0</class>
+	</character>
+	<character id="sim_default_fndn_1">
+		<class>sim_default_fndn_1</class>
+	</character>
+	<character id="sim_default_fndn_2">
+		<class>sim_default_fndn_2</class>
+	</character>
+	<character id="sim_default_fndn_3">
+		<class>sim_default_fndn_3</class>
+	</character>
+	<character id="sim_default_fndn_4">
+		<class>sim_default_fndn_4</class>
+	</character>
+	<character id="sim_default_fndn_dead">
+		<class>sim_default_fndn_dead</class>
+	</character>
+    <character id="sim_default_fndn_trader">
+		<class>sim_default_fndn_trader</class>
+	</character>
+
+	<character id="stalker_fndn_faction_trader">
+        <class>stalker_fndn_faction_trader</class>
+        <specific_character>stalker_fndn_faction_trader</specific_character>
+    </character>
+	<character id="stalker_fndn_faction_mechanic">
+        <class>stalker_fndn_faction_mechanic</class>
+        <specific_character>stalker_fndn_faction_mechanic</specific_character>
+    </character>
+
+</xml>

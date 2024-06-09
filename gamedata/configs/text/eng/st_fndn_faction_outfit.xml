@@ -1,0 +1,18 @@
+<string_table>
+                
+                <string id="fndn_guard_outfit_name">
+                    <text>Foundation Guardsmen Uniform</text>
+                </string>
+                <string id="fndn_guard_outfit_description">
+                    <text>%c[ui_gray_1]A lightweight and comfortable outfit designed to give a balanced amount of both comfortablity and protection, this lets the wearer to stay in the outfit longer.\n \n
+                    </text>
+                </string>
+        
+                <string id="Zone_wonderer_outfit_name">
+                    <text>Delta-12 "Zone Wonderer" Gear</text>
+                </string>
+                <string id="Zone_wonderer_outfit_description">
+                    <text>%c[ui_gray_1]A sturdy and mobile outfit equiped with nightvision and pouches. Theres a badge in that reads "Delta-12 "Zone Wonderer".\n \n
+                    </text>
+                </string>
+</string_table>

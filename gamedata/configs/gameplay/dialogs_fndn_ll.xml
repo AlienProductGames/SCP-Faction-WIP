@@ -1,0 +1,31 @@
+<game_dialogs>
+
+    <dialog id="fndn_ll_storyline_1">
+        <phrase_list>
+
+            <phrase id="0">
+                <text>
+                fndn_ll_start_1
+                </text>
+                <next>1</next>
+            </phrase>
+
+            <phrase id="1">
+                <text>
+                fndn_ll_dusk_reply_1
+                </text>
+                <next>2</next>
+            </phrase>
+
+            <phrase id="2">
+                <text>
+                 fndn_ll_start_2
+                </text>
+                <give_info>drx_questlines_about_info</give_info>
+				<give_info>living_legend_info_about_done</give_info>
+            </phrase>
+
+        </phrase_list>
+    </dialog>
+
+</game_dialogs>

@@ -1,0 +1,137 @@
+[fndn_guard_outfit]:outfit_base
+		$spawn                        = "outfit\novice_outfit"
+		class                         = EQU_STLK
+		ef_equipment_type             = 3
+		visual                        = dynamics\outfit\fndn_guard_outfit
+		actor_visual                  = actors\stalker_fndn\stalker_fndn_0.ogf
+		npc_visual                    = actors\stalker_fndn\stalker_fndn_0.ogf
+		player_hud_section            = actor_hud_guard
+		character_portrait            = Foundation_Guard_portrait
+		full_icon_name                = npc_icon_novice_outfit
+		full_scale_icon               = 0, 11
+        
+		inv_name                      = fndn_guard_outfit_name
+		inv_name_short                = fndn_guard_outfit_name
+		description                   = fndn_guard_outfit_description
+        icons_texture                 = ui_icon_equipment_fndn
+		inv_grid_x                    = 1
+		inv_grid_y                    = 1
+		inv_grid_width                = 2
+		inv_grid_height               = 2
+		upgr_icon_x                   = 3746
+		upgr_icon_y                   = 162
+		upgr_icon_width               = 306
+		upgr_icon_height              = 157
+		upgrades                      = up_gr_firstab_novice_1, up_gr_seconab_novice_1, up_gr_thirdab_novice_1
+		installed_upgrades            =
+		upgrade_scheme                = up_scheme_novice_1
+		
+		community					  = fndn
+		kind                          = o_light
+		cost                          = 9930
+		inv_weight                    = 3.86
+		additional_inventory_weight   = 3
+		additional_inventory_weight2  = 3
+		artefact_count                = 0
+		immunities_sect               = sect_fndn_guard_outfit_immunities
+		repair_type                   = outfit_novice
+		;repair_part_bonus             = 0.10
+		hit_fraction_actor            = 0.9
+		bones_koeff_protection        = actor_armor_novice
+		control_inertion_factor       = 1.16
+		power_loss                    = 0.05
+        
+		burn_protection               = 0.15
+		shock_protection              = 0.3
+		radiation_protection          = 0.02
+		chemical_burn_protection      = 0.03
+		telepatic_protection          = 0.09
+		strike_protection             = 0.02
+		explosion_protection          = 0.1
+		wound_protection              = 0.25
+		fire_wound_protection         = 0.2
+
+
+[sect_fndn_guard_outfit_immunities]
+		burn_immunity                 = 0.05
+		chemical_burn_immunity        = 0.017
+		explosion_immunity            = 0.08
+		fire_wound_immunity           = 0.01
+		radiation_immunity            = 0.0
+		shock_immunity                = 0.015
+		strike_immunity               = 0
+		telepatic_immunity            = 0.0
+		wound_immunity                = 0.006
+
+;---------------------------------------------------------------------------
+
+[Zone_wonderer_outfit]:outfit_base
+		$spawn                        = "outfit\cs_exolight_outfit"
+		class                         = E_STLK
+		ef_equipment_type             = 5
+		visual                        = dynamics\outfit\Zone_wonderer_outfit
+		actor_visual                  = actors\stalker_fndn\stalker_fndn_1.ogf
+		npc_visual                    = actors\stalker_fndn\stalker_fndn_1.ogf
+		player_hud_section            = actor_hud_mtf
+		character_portrait            = Zone_Wonderer_portrait
+		full_icon_name                = npc_icon_exo_outfit
+		full_scale_icon               = 2, 11
+        
+		inv_name                      = Zone_wonderer_outfit_name
+		inv_name_short                = Zone_wonderer_outfit_name
+		description                   = Zone_wonderer_outfit_description
+        icons_texture                 = ui_icon_equipment_fndn
+		inv_grid_x                    = 13
+		inv_grid_y                    = 1
+		inv_grid_width                = 2
+		inv_grid_height               = 2
+		upgr_icon_x                   = 3777
+		upgr_icon_y                   = 1418
+		upgr_icon_width               = 296
+		upgr_icon_height              = 159
+		upgrades                      = up_gr_firstab_exolight_2, up_gr_seconab_exolight_2, up_gr_thirdab_exolight_2, up_gr_fourtab_exolight_2
+		installed_upgrades            =
+		upgrade_scheme                = up_scheme_exolight_1
+        
+		community                     = fndn
+		kind                          = o_heavy
+		cost                          = 110625
+		inv_weight                    = 14
+		additional_inventory_weight   = 14
+		additional_inventory_weight2  = 14
+		artefact_count                = 4
+		immunities_sect               = sect_zone_wonderer_outfit_immunities
+		repair_type                   = outfit_heavy
+		;repair_part_bonus             = 0.38
+		hit_fraction_actor            = 0.25
+		bones_koeff_protection        = actor_armor_radiation
+		control_inertion_factor       = 1.76
+		power_loss                    = 0.1
+        
+		burn_protection               = 0.5
+		shock_protection              = 2
+		radiation_protection          = 0.025
+		chemical_burn_protection      = 0.02
+		telepatic_protection          = 0.1
+		strike_protection             = 0.5
+		explosion_protection          = 0.5
+		wound_protection              = 0.64
+		fire_wound_protection         = 0.48
+
+[sect_zone_wonderer_outfit_immunities]
+		burn_immunity                 = 0.05
+		chemical_burn_immunity        = 0.017
+		explosion_immunity            = 0.08
+		fire_wound_immunity           = 0.01
+		radiation_immunity            = 0.0
+		shock_immunity                = 0.015
+		strike_immunity               = 0
+		telepatic_immunity            = 0.0
+		wound_immunity                = 0.006
+
+
+[actor_hud_mtf]:actor_hud
+visual         			= anomaly_weapons\hands\wpn_hand_MTF
+
+[actor_hud_guard]:actor_hud
+visual         			= anomaly_weapons\hands\wpn_hand_guard

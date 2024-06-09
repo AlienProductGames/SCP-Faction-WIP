@@ -1,0 +1,35 @@
+---==================================================================================================================---
+---                                                                                                                  ---
+---    Original Author(s) : AlienProduct        	                                                                 ---
+---    Edited : N/A                                                                                                  ---
+---    Date : December 11 23                                                                                         ---
+---    						                                                                                         ---
+---                                                                                                                  ---
+---==================================================================================================================---
+
+---==================================dialogs_lostzone==========================================================---
+
+dialogs_lostzone.lttz_faction_infos = {
+    ["fndn"] = {
+        info = {
+			[1] = "living_legend_fndn",
+			[2] = "living_legend_fndn_answer",
+			[3] = "mortal_sin_fndn",
+			[4] = "operation_afterglow_fndn",
+			[5] = "living_legend_st",
+        },
+        task = {
+			[1] = "lttz_ll_finish_fndn",
+			[2] = "lttz_ms_start_fndn",
+			[3] = "lttz_ms_report_fndn",
+			[4] = "lttz_ms_ambush_fndn",
+			[5] = "lttz_ms_urban_warfare_fndn",
+			[6] = "lttz_ms_zone_hero_fndn",
+			[7] = "lttz_ll_visit_barkeep",
+        }
+    }
+}
+
+function give_task_lttz_ll_finish_fndn()
+	dialogs_lostzone.give_task('lttz_ll_finish_fndn')
+end

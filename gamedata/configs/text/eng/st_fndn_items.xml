@@ -1,0 +1,9 @@
+    <string_table>    
+            <string id="st_fndn500">
+                <text>fndn-500</text>
+            </string>
+        <string id="st_fndn500_descr">
+            <text> A small red pill said to cure all injury and desease.
+            </text>
+        </string>
+    </string_table>

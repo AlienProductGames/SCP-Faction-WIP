@@ -1,0 +1,75 @@
+[foundation_vision_free]
+min_view_distance   		        = 0.35		; min range of cone based on eye_range
+max_view_distance	 		        = 1.11		; max range of cone based on eye_range
+visibility_threshold	         	= 80.0		;Threshold in which object becomes visible based on factors
+always_visible_distance 	        = 0.05		;Distance object is always considered visible (float)
+time_quant			            	= 0.001		;step increment to for sight calculations
+decrease_value				        = 0.01   	;Decrease over time to overall threshold
+velocity_factor		            	= 1.5		;Higher value = greater bonus to detection speed when target is moving (depended on movement speed)
+luminocity_factor		        	= 0.45		;Low value = easier to see at night
+transparency_threshold	        	= 0.73 		;Low value = easier to see through objects
+still_visible_time                  = 0 		;The time (milliseconds) that the object is still considered visible , even if it is not in the frustum (u32)
+
+
+[foundation_vision_danger]
+min_view_distance   	        	= 0.55		; min range of cone based on eye_range
+max_view_distance	 		        = 1.77		; max range of cone based on eye_range
+visibility_threshold	 	        = 55.0		;Threshold in which object becomes visible based on factors
+always_visible_distance 	        = 0.05		;Distance object is always considered visible (float)
+time_quant				            = 0.001		;step increment to for sight calculations
+decrease_value				        = 0.01		;Decrease over time to overall threshold
+velocity_factor		            	= 1.5		;Higher value = greater bonus to detection speed when target is moving (depended on movement speed)
+luminocity_factor			        = 0.45		;Low value = easier to see at night
+transparency_threshold	        	= 0.6		;Low value = easier to see through objects (if greater then 1 then enemies are blind)
+still_visible_time                  = 200		;The time (milliseconds) that the object is still considered visible , even if it is not in the frustum (u32)
+
+
+[stalker_fndn]:stalker
+
+;---LEVEL EDITOR------------------------------------------------------
+$spawn							= "stalkers\stalker_fndn"	; option for Level Editor
+panic_threshold					= 0
+
+;---CRITICAL WOUND------------------------------------------------------------------
+critical_wound_threshold		= 1.1
+critical_wound_decrease_quant	= 0.
+body_parts_section_id			= critical_wound_body_parts_section
+
+species							= human
+
+;---VISIBILITY--------------------------------------------------------
+vision_danger_section			= foundation_vision_danger
+vision_free_section				= foundation_vision_free
+
+;---SOUND PLAYER------------------------------------------------------
+sound_death				= fight\death\death_
+sound_anomaly_death			= fight\death\anomaly_
+sound_hit				= fight\hit\hit_
+sound_humming				= states\idle\idle_
+sound_alarm				= fight\enemy\enemy_
+sound_backup				= fight\backup\backup_,fight\threat\threat_close_
+sound_detour				= fight\detour\detour_,fight\fire\fire_,fight\threat\threat_close_
+sound_friendly_fire			= fight\friendly_fire\friendly_fire_
+sound_panic_human			= states\panic_human\panic_human_
+sound_panic_monster			= states\panic_monster\panic_monster_
+sound_tolls				= fight\tolls\tolls_
+sound_wounded				= fight\friend_hitted\hit_friend_
+sound_grenade_alarm			= fight\grenade\grenade_1
+sound_friendly_grenade_alarm		= fight\friendly_grenade\friendly_grenade_1
+sound_need_backup			= fight\cover_fire\cover_fire_
+sound_running_in_danger			= ;states\breath\breath_1
+sound_walking_in_danger			= ;states\breath\breath_2
+sound_kill_wounded			= help\wounded\kill_wounded_
+sound_enemy_critically_wounded		= fight\enemy_hit\enemy_hit_
+sound_enemy_killed_or_wounded		= fight\enemy_down\enemy_down_
+
+sound_attack_no_allies			= fight\fire\fire_,fight\threat\threat_distant_
+sound_attack_allies_single_enemy	= fight\attack\attack_,fight\attack\attack_one_,fight\fire\fire_
+sound_attack_allies_several_enemies	= fight\attack\attack_,fight\attack\attack_many_,fight\fire\fire_
+sound_search1_no_allies			= fight\threat\threat_distant_
+sound_search1_with_allies		= fight\searching_enemy\search_
+sound_enemy_lost_no_allies		=
+sound_enemy_lost_with_allies		= fight\searching_enemy\enemy_lost_
+sound_throw_grenade			= fight\grenade\grenade_ready_1
+
+

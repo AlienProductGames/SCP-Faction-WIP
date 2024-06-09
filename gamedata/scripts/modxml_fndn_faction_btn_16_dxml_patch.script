@@ -1,0 +1,22 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\ui_mm_faction_select_16.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local fndn_btn_16 =
+            [[
+            <btn_fndn x="0" y="0" width="70" height="88" stretch="1">
+				<texture>ui_new_game_btn_fndn</texture>
+			</btn_fndn>
+            ]]
+            local res = xml_obj:query("popup_faction")
+            if is_not_empty(res) then
+                local el = res[1]
+                xml_obj:insertFromXMLString(fndn_btn_16, el, #el.kids)
+            end           
+        end
+    end)
+end

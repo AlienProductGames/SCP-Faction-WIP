@@ -1,0 +1,44 @@
+        <string_table> 
+            <string id="st_dyn_news_comm_fndn_1">
+                <text>a Foundation soilder</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_2">
+                <text>a guy from the Foundation</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_3">
+                <text>some guy from the Foundation</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_4">
+                <text>one of the guys from the Foundation</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_5">
+                <text>foundation</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_6">
+                <text>Foundation</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_7">
+                <text>Foundation</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_8">
+                <text>Foundation soldiers</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_9">
+                <text>Foundation</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_10">
+                <text>Foundation forces</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_11">
+                <text>We need backup!</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_12">
+                <text>Requesting backup!</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_13">
+                <text>Requesting immediate support!</text>
+            </string>
+            <string id="st_dyn_news_comm_fndn_14">
+                <text>We need reinforcements!</text>
+            </string>
+        </string_table>

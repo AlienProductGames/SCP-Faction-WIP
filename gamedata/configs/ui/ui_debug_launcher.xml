@@ -291,9 +291,9 @@
 		<btn_isg x="250" y="350" width="90" height="90" stretch="1">
 			<texture>ui_new_game_btn_isg</texture>
 		</btn_isg>
-		<btn_scp x="50" y="450" width="90" height="90" stretch="1">
-			<texture>ui_new_game_btn_scp</texture>
-		</btn_scp>
+		<btn_fndn x="50" y="450" width="90" height="90" stretch="1">
+			<texture>ui_new_game_btn_fndn</texture>
+		</btn_fndn>
 	</dbg_faction_change>
 	
 <!-- NPC Logic -->
