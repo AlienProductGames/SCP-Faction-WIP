@@ -43,7 +43,7 @@ target_functor = general_bounty_task
 status_functor = bounty_task
 condlist_0 = {!task_giver_alive(simulation_task_fndn_2)} fail
 
-on_job_descr = %=setup_bounty_task(simulation_task_fndn_2:false:false:dolg)%
+on_job_descr = %=setup_bounty_task(simulation_task_fndn_2:false:false:fndn)%
 on_complete = %=reward_random_money(7500:8500) =reward_random_item(tushonka:protein:beans:chili:nuts:mre:ration_ru:ration_ukr) =reward_random_item(grenade_rgd5:grenade_f1:ammo_m209:mine_new:ied_rpg_new:ied_new) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(simulation_task_fndn_2) =drx_sl_unregister_task_giver(simulation_task_fndn_2) =drx_sl_reset_stored_task(simulation_task_fndn_2)%
 on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(simulation_task_fndn_2) =drx_sl_reset_stored_task(simulation_task_fndn_2)%
 
@@ -148,3 +148,198 @@ condlist_0 = {!task_giver_alive(simulation_task_fndn_5)} fail
 fetch_func = %=setup_fetch_task(simulation_task_fndn_5_fetch:supplies:1:4)%
 on_complete = %=fetch_reward_and_remove(simulation_task_fndn_5_fetch:0.8) =reward_stash(true) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(simulation_task_fndn_5) =pstor_reset(simulation_task_fndn_5_fetch) =drx_sl_unregister_task_giver(simulation_task_fndn_5) =drx_sl_reset_stored_task(simulation_task_fndn_5)%
 on_fail = %=fail_task_dec_goodwill(25:fndn) =pstor_reset(simulation_task_fndn_5_fetch) =drx_sl_unregister_task_giver(simulation_task_fndn_5) =drx_sl_reset_stored_task(simulation_task_fndn_5)%
+
+
+[drx_sl_stalker_fndn_faction_trader_start_game_1]
+
+icon = ui_inGame2_PD_Diplomat
+storyline = true
+prior = 195
+
+title = drx_sl_stalker_fndn_faction_trader_start_game_1_name
+descr = drx_sl_stalker_fndn_faction_trader_start_game_1_text
+
+target = stalker_fndn_faction_trader
+condlist_0 = {-drx_sl_start_game_stalker_fndn_faction_trader} complete
+condlist_1 = {!is_alive(stalker_fndn_faction_trader)} fail
+
+on_complete = %=drx_sl_meet_random_honcho()%
+on_fail = %=drx_sl_decrease_sl_tasks_count() =drx_sl_meet_random_honcho()%
+
+
+[drx_sl_stalker_fndn_faction_trader_meet_task_1]
+
+icon = ui_inGame2_Put_v_pripyat
+storyline = true
+prior = 192
+
+title = drx_sl_stalker_fndn_faction_trader_meet_task_1_name
+descr = drx_sl_stalker_fndn_faction_trader_meet_task_1_text
+
+target = stalker_fndn_faction_trader
+condlist_0 = {-drx_sl_meet_honcho_stalker_fndn_faction_trader} complete
+condlist_1 = {!is_alive(stalker_fndn_faction_trader)} fail
+
+on_fail = %=drx_sl_decrease_sl_tasks_count() =drx_sl_meet_random_honcho()%
+
+
+
+[lttz_ll_finish_fndn]
+icon = ui_iconsNpc_stalker_do_komandir
+prior = 195
+storyline = true
+
+title = lttz_ll_finish_task_title
+target = bar_fndn_leader
+descr = lttz_ll_finish_fndn_task_descr
+
+on_complete = %=reward_money(30000) =reward_stash() =complete_task_inc_goodwill(100:fndn) =lttz_ll_take_strelok_pendrive%
+condlist_0 = {+dusk_living_legend_finish} complete
+
+
+[stalker_fndn_faction_trader_task_2]	;-- Assault Enemy Territory Task
+icon = ui_inGame2_PD_Lider
+storyline = false
+prior = 75
+repeat_timeout = 16200
+precondition = {=validate_assault_task(stalker_fndn_faction_trader_task_2:1:1:nil:false:false:nil)} true, false
+title = stalker_fndn_faction_trader_task_2_name
+descr = stalker_fndn_faction_trader_task_2_text
+job_descr = stalker_fndn_faction_trader_task_2_about
+task_complete_descr = stalker_fndn_faction_trader_task_2_finish
+stage_complete = 1
+target_functor = assault_task_target_functor
+status_functor = assault_task_status_functor
+status_functor_params = fndn
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_trader_task_2)} fail
+on_job_descr = %=setup_assault_task(stalker_fndn_faction_trader_task_2)%
+on_complete = %=reward_random_money(10500:11000) =reward_stash(true) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(stalker_fndn_faction_trader_task_2) =drx_sl_unregister_task_giver(stalker_fndn_faction_trader_task_2) =drx_sl_reset_stored_task(stalker_fndn_faction_trader_task_2)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(stalker_fndn_faction_trader_task_2) =drx_sl_reset_stored_task(stalker_fndn_faction_trader_task_2)%
+
+
+[stalker_fndn_faction_trader_task_3]	;-- Capture Enemy Documents Dynamic Task
+icon = ui_inGame2_Poslednie_razrabotki
+storyline = false
+prior = 39
+repeat_timeout = 16200
+precondition = {-drx_sl_quest_item_task_1_started} true, false
+title = stalker_fndn_faction_trader_task_3_name
+descr = stalker_fndn_faction_trader_task_3_text
+job_descr = stalker_fndn_faction_trader_task_3_about
+task_complete_descr = stalker_fndn_faction_trader_task_3_finish
+stage_complete = 1
+target_functor = drx_sl_quest_item_task_target
+status_functor = drx_sl_quest_item_task_status
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_trader_task_3)} fail
+on_job_descr = %=drx_sl_create_quest_stash(stalker_fndn_faction_trader_task_3:1)%
+on_complete = %=reward_random_money_by_dist(stalker_fndn_faction_trader_task_3:3000:3500:0.4) =reward_stash(true) =complete_task_inc_goodwill(50:fndn) =remove_item(drx_sl_quest_item_1) =inc_task_stage(stalker_fndn_faction_trader_task_3) -drx_sl_quest_item_task_1_started =drx_sl_unregister_task_giver(stalker_fndn_faction_trader_task_3) =drx_sl_reset_stored_task(stalker_fndn_faction_trader_task_3)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) -drx_sl_quest_item_task_1_started =drx_sl_unregister_task_giver(stalker_fndn_faction_trader_task_3) =drx_sl_reset_stored_task(stalker_fndn_faction_trader_task_3)%
+
+
+[stalker_fndn_faction_trader_mlr_task_2]	;-- Find patches
+icon = ui_iconsTotal_find_item
+prior = 90
+repeat_timeout = 10800
+storyline = false
+title = stalker_fndn_faction_trader_mlr_task_2_name
+title_functor = general_fetch_task
+descr = stalker_fndn_faction_trader_mlr_task_2_text
+descr_functor = general_fetch_task
+job_descr = stalker_fndn_faction_trader_mlr_task_2_about
+fetch_descr = stalker_fndn_faction_trader_mlr_task_2_fetch_about
+fetch_func = %=setup_fetch_task(stalker_fndn_faction_trader_mlr_task_2_fetch:patch_mlr_fndn:15:20)%
+stage_complete = 1
+status_functor = actor_has_fetch_item
+target_functor = general_fetch_task
+task_complete_descr = stalker_fndn_faction_trader_mlr_task_2_fetch_finish
+;precondition = true
+on_complete = %=complete_task_inc_goodwill(50:fndn) =reward_stash(true) =remove_fetch_item(stalker_fndn_faction_trader_mlr_task_2_fetch) =reward_random_money(4500:9000) =inc_task_stage(stalker_fndn_faction_trader_mlr_task_2) =pstor_reset(stalker_fndn_faction_trader_mlr_task_2_fetch)%
+on_fail = %=pstor_reset(stalker_fndn_faction_trader_mlr_task_2_fetch)%
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_trader_mlr_task_2)} fail
+
+
+[stalker_fndn_faction_medic_task_1]
+icon = ui_inGame2_D_Sisshik
+prior = 50
+repeat_timeout = 43200
+storyline = false
+precondition = {-stalker_fndn_faction_medic_drugkit_done} true, false
+
+title = stalker_fndn_faction_medic_task_1_name
+title_functor = general_fetch_task
+descr = stalker_fndn_faction_medic_task_1_text
+descr_functor = general_fetch_task
+job_descr = stalker_fndn_faction_medic_task_1_about
+fetch_descr = stalker_fndn_faction_medic_task_1_fetch_about
+task_complete_descr = stalker_fndn_faction_medic_task_1_fetch_finish
+
+stage_complete = 1
+status_functor = actor_has_fetch_item
+target_functor = general_fetch_task
+
+fetch_func = %=setup_generic_fetch_task(stalker_fndn_faction_medic_task_1_fetch:1:itm_drugkit)%
+on_complete = %=reward_stash(true) +stalker_fndn_faction_medic_drugkit_done =fetch_reward_and_remove(stalker_fndn_faction_medic_task_1_fetch:1.5) =complete_task_inc_goodwill(50:fndn) =inc_task_stage(stalker_fndn_faction_medic_task_1) =pstor_reset(stalker_fndn_faction_medic_task_1_fetch) =drx_sl_unregister_task_giver(stalker_fndn_faction_medic_task_1) =drx_sl_reset_stored_task(stalker_fndn_faction_medic_task_1)%
+on_fail = %=pstor_reset(stalker_fndn_faction_medic_task_1_fetch) =drx_sl_unregister_task_giver(stalker_fndn_faction_medic_task_1) =drx_sl_reset_stored_task(stalker_fndn_faction_medic_task_1)%
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_medic_task_1)} fail
+
+[stalker_fndn_faction_mechanic_task_1]	;-- Find Level 1 Toolkit Task
+icon = ui_inGame2_Instrumenti
+storyline = false
+prior = 15
+precondition = {-stalker_fndn_faction_mechanic_upgrade_tier_1} true, false
+title = stalker_fndn_faction_mechanic_task_1_name
+title_functor = general_fetch_task
+descr = stalker_fndn_faction_mechanic_task_1_text
+descr_functor = general_fetch_task
+job_descr = stalker_fndn_faction_mechanic_task_1_about
+fetch_descr = stalker_fndn_faction_mechanic_task_1_fetch_about
+task_complete_descr = stalker_fndn_faction_mechanic_task_1_fetch_finish
+stage_complete = 1
+target_functor = general_fetch_task
+status_functor = actor_has_fetch_item
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_mechanic_task_1)} fail
+fetch_func = %=setup_generic_fetch_task(stalker_fndn_faction_mechanic_task_1_fetch:1:itm_basickit)%
+on_complete = %=complete_task_inc_goodwill(50:fndn) =fetch_reward_and_remove(stalker_fndn_faction_mechanic_task_1_fetch) =inc_task_stage(stalker_fndn_faction_mechanic_task_1) +stalker_fndn_faction_mechanic_upgrade_tier_1 =drx_sl_unregister_task_giver(stalker_fndn_faction_mechanic_task_1)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(stalker_fndn_faction_mechanic_task_1)%
+
+
+[stalker_fndn_faction_mechanic_task_2]	;-- Find Level 2 Toolkit Task
+icon = ui_inGame2_Instrumenti
+storyline = false
+prior = 16
+precondition = {+stalker_fndn_faction_mechanic_upgrade_tier_1 -stalker_fndn_faction_mechanic_upgrade_tier_2} true, false
+title = stalker_fndn_faction_mechanic_task_2_name
+title_functor = general_fetch_task
+descr = stalker_fndn_faction_mechanic_task_2_text
+descr_functor = general_fetch_task
+job_descr = stalker_fndn_faction_mechanic_task_2_about
+fetch_descr = stalker_fndn_faction_mechanic_task_2_fetch_about
+task_complete_descr = stalker_fndn_faction_mechanic_task_2_fetch_finish
+stage_complete = 1
+target_functor = general_fetch_task
+status_functor = actor_has_fetch_item
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_mechanic_task_2)} fail
+fetch_func = %=setup_generic_fetch_task(stalker_fndn_faction_mechanic_task_2_fetch:1:itm_advancedkit)%
+on_complete = %=complete_task_inc_goodwill(50:fndn) =fetch_reward_and_remove(stalker_fndn_faction_mechanic_task_2_fetch) =inc_task_stage(stalker_fndn_faction_mechanic_task_2) +stalker_fndn_faction_mechanic_upgrade_tier_2 =drx_sl_unregister_task_giver(stalker_fndn_faction_mechanic_task_2)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(stalker_fndn_faction_mechanic_task_2)%
+
+
+[stalker_fndn_faction_mechanic_task_3]	;-- Find Level 3 Toolkit Task
+icon = ui_inGame2_Instrumenti
+storyline = false
+prior = 17
+precondition = {+stalker_fndn_faction_mechanic_upgrade_tier_2 -stalker_fndn_faction_mechanic_upgrade_tier_3} true, false
+title = stalker_fndn_faction_mechanic_task_3_name
+title_functor = general_fetch_task
+descr = stalker_fndn_faction_mechanic_task_3_text
+descr_functor = general_fetch_task
+job_descr = stalker_fndn_faction_mechanic_task_3_about
+fetch_descr = stalker_fndn_faction_mechanic_task_3_fetch_about
+task_complete_descr = stalker_fndn_faction_mechanic_task_3_fetch_finish
+stage_complete = 1
+target_functor = general_fetch_task
+status_functor = actor_has_fetch_item
+condlist_0 = {!task_giver_alive(stalker_fndn_faction_mechanic_task_3)} fail
+fetch_func = %=setup_generic_fetch_task(stalker_fndn_faction_mechanic_task_3_fetch:1:itm_expertkit)%
+on_complete = %=complete_task_inc_goodwill(50:fndn) =fetch_reward_and_remove(stalker_fndn_faction_mechanic_task_3_fetch) =inc_task_stage(stalker_fndn_faction_mechanic_task_3) +stalker_fndn_faction_mechanic_upgrade_tier_3 =drx_sl_unregister_task_giver(stalker_fndn_faction_mechanic_task_3)%
+on_fail = %=fail_task_dec_goodwill(25:fndn) =drx_sl_unregister_task_giver(stalker_fndn_faction_mechanic_task_3)%

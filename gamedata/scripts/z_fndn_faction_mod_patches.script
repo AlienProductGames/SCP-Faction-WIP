@@ -10,10 +10,28 @@
 --============================= _g =============================--
 _G.squad_community_by_behaviour["fndn"] = "fndn"
 
+-- ex. squad_community_by_behaviour = {
+--		["stalker"]							= "stalker",
+--		["bandit"]							= "bandit",
+--		ect.
+
 local orig_is_story_player = _G.IsStoryPlayer
 function _G.IsStoryPlayer()
 	return orig_is_story_player() or (gameplay_disguise.get_default_comm() == "fndn")
 end
+
+--function IsStoryPlayer()
+--	local comm = gameplay_disguise.get_default_comm()
+--	return story_comm[comm]
+--end
+
+_g.story_comm["fndn"] = true
+
+-- local story_comm = {
+--	["csky"] = true,
+--	["dolg"] = true,
+--  ect.
+--	}
 
 --====================== death_manager =========================--
 local orig_init_drop_settings = death_manager.init_drop_settings
@@ -74,7 +92,7 @@ local orig_dynamic_news_manager_init = dynamic_news_manager.DynamicNewsManager._
 function dynamic_news_manager.DynamicNewsManager.__init(self)
 	orig_dynamic_news_manager_init(self)
 
-	self.channel_status["fndn"] = true
+	self.channel_status["fndn"] = (comm == "fndn")
 	self.queue["fndn"] = {}
 	self.mono["fndn"] = true
 	self.unknown["fndn"] = true
@@ -94,44 +112,6 @@ function ui_pda_relations_tab.pda_relations_tab.InitControls(self)
 		end
 	end
 	orig_pda_relations_init_controls(self)
-end
-
-function on_game_start()
-    if dmg_safr_pda_mcm then
-        ui_pda_relations_tab.enc_ref_list = { 
-            "loner", 
-            "duty", 
-            "freedom", 
-            "clear_sky", 
-            "ecologist", 
-            "mercenary", 
-            "fndn",
-            "military", 
-            "isg", 
-            "renegade", 
-            "bandit", 
-            "greh", 
-            "monolith", 
-            "zombified"
-        }
-    
-        ui_pda_relations_tab.faction_code_list = { 
-            "stalker", 
-            "dolg", 
-            "freedom", 
-            "csky", 
-            "ecolog", 
-            "killer",
-            "fndn", 
-            "army", 
-            "isg", 
-            "renegade", 
-            "bandit", 
-            "greh", 
-            "monolith", 
-            "zombied"
-        }
-    end
 end
 
 --===================== warfare_names ========================--
@@ -184,7 +164,7 @@ local orig_on_game_start = faction_expansions.on_game_start
 function faction_expansions.on_game_start()
 	orig_on_game_start()
 
-	local ini_fact = ini_file("plugins\\faction_profile.ltx")
+	local ini_fact = ini_file("plugins\\faction_profile_fndn.ltx")
 
 	faction_expansions.faction["fndn"] = {}
 	faction_expansions.faction["fndn"]["type"] = ini_fact:r_string_ex("fndn", "type") or "group"
@@ -223,6 +203,9 @@ table.insert(game_relations.factions_table, "fndn")
 table.insert(game_relations.factions_table_all, "fndn")
 table.insert(game_relations.factions_table_all, "actor_fndn")
 
+-- from - factions_table = {"stalker","bandit","csky","dolg","freedom","fndn","army","ecolog","monolith","renegade","greh","isg"}
+
+
 --==================== gameplay_disguise ======================--
 gameplay_disguise.blacklisted_factions["fndn"] = true
 gameplay_disguise.possible_factions["fndn"] = true
@@ -259,12 +242,13 @@ end
 
 dialogs.story_factions["fndn"] = true
 
+dialogs.important_docs_warfare_names["fndn"] = "stalker_fndn_faction_trader"
+
 --=================== tasks_ ====================================--
 
---=================== _bounty ====================================--
 tasks_bounty.faction_list["fndn"] = "fndn"
-
---=================== _fetch ====================================--
+tasks_agent_rescue.faction_list["fndn"] = "fndn"
+tasks_assault.factions_list["fndn"] = true
 tasks_fetch.faction_list["fndn"] = "fndn"
 table.insert(tasks_fetch.patch_general, "fndn") 
 {
@@ -278,3 +262,18 @@ table.insert(tasks_fetch.patch_general, "dolg")
 {
 	["fndn_patch"]        = 0,
 }
+
+--===================== axr_task_manager ========================--
+axr_task_manager.drx_sl_main_honcho_table["fndn"] = "stalker_fndn_faction_trader"
+axr_task_manager.drx_sl_honchos_table = {
+
+	{"stalker_fndn_faction_trader", "fndn"},
+	{"stalker_fndn_faction_mechanic", "fndn"},
+}
+
+--===================== utils_xml ===============================--
+function utils_xml.get_special_txt(str)
+	
+	if str == "actor_fndn"          then return "Foundation"                  end
+
+end

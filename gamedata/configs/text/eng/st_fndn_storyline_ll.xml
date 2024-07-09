@@ -1,28 +1,76 @@
 <string_table>
-    <string id = "drx_sl_start_msg_fndn">
-        <text>
-        Get your ass over here, I got news for a valuable stalker I want you to track down. Don't keep me waiting.
-        </text>
-    </string>
 
-    <string id = "fndn_ll_start_1">
-        <text>
-        I got your message. What's this about a valuable stalker?
-        </text>
-    </string>
+	<string id="drx_sl_stalker_fndn_faction_trader_meet_task_1_name">
+		<text>Meet with Dusk</text>
+	</string>
+	<string id="drx_sl_stalker_fndn_faction_trader_meet_task_1_text">
+		<text>Dusk should be in his office.</text>
+	</string>
 
-    <string id = "fndn_ll_dusk_reply_1">
-        <text>
-        About time, hope you had enjoyed the ride here as thats the only ride you'll get. We got word from the Mercenaries that theres this stalker named "Strelok" and as far as you need to know,
-        He has more knowledge about this place than any other stalker. I want you to find him and bring him back here for questioning... The Mercenaries recommend looking to the swamps southwest from here,
-        They told us that a friend of strelok resides at the collapsed railway bridge.
-        </text>
-    </string>
+	<string id="drx_sl_stalker_fndn_faction_trader_start_game_1_name">
+		<text>Meet Dusk</text>
+	</string>
+	<string id="drx_sl_stalker_fndn_faction_trader_start_game_1_text">
+		<text>I should go talk to Dusk.</text>
+	</string>
 
-    <string id = "fndn_ll_start_2">
-        <text>
-        Will do.
-        </text>
-    </string>
+    <string id="drx_sl_start_msg_fndn">
+		<text>I got a mission for any sucker wanting some overtime.</text>
+	</string>
+
+	<string id="drx_sl_stalker_fndn_faction_trader_game_start_dialog_1_0">
+		<text>Meet Dusk</text>
+	</string>
+	<string id="drx_sl_stalker_fndn_faction_trader_game_start_dialog_1_1">
+		<text>I should go talk to Dusk.</text>
+	</string>
+
+    <string id="dusk_questlines_about_dialog_0">
+		<text>Hey, I'm here for that mission</text>
+	</string>
+    <string id="dusk_questlines_about_dialog_1">
+		<text>Really? are you sure new guy? It's nothing like back at the facility.</text>
+	</string>
+    
+    <string id="dusk_living_legend_0">
+		<text>So, what's this important mission about?</text>
+	</string>
+	<string id="dusk_living_legend_1">
+		<text>We got word of some legend talking about a stalker named strelok. They say he's got knowledge about the zone that nobody else knows about. We want you to find this strelok and extract as much information you can from him.</text>
+	</string>
+	<string id="dusk_living_legend_2">
+		<text>Now that sounds like a solid mission.</text>
+	</string>
+	<string id="dusk_living_legend_21">
+		<text>I change my mind.</text>
+	</string>
+	<string id="dusk_living_legend_3">
+		<text>Yes, however, it won't be that easy. We have no idea where he is but we have word that an old friend of streloks has been spotted in the swamp.</text>
+	</string>
+	<string id="dusk_living_legend_4">
+		<text>I'll take the mission.</text>
+	</string>
+	<string id="dusk_living_legend_5">
+		<text>I like your spirit. Go find Strelok's old friend, goes by Doctor. Here's a PDA with the Doctor's coordinates. DON'T lose it, got it? If I see you dead without it, I'm killing you again, kapeesh?.</text>
+	</string>
+	
+	<string id="dusk_living_legend_finish_0">
+		<text>Mission accomplished.</text>
+	</string>
+	<string id="dusk_living_legend_finish_1">
+		<text>You made it, huh? I knew you're a tough cookie. Okay, tell me what you've got.</text>
+	</string>
+	<string id="dusk_living_legend_finish_2">
+		<text>Aside from nightmare material for several years? I accompanied Strelok and his men on their quest into the Sarcophagus. In the meantime, I discovered quite a lot about the Zone. Found some top secret documents in clandestine labs. Strelok took them, but he told me a lot. And gave me this pendrive. It contains a few dozen encrypted gigabytes of info about the Zone's dirty little secrets.</text>
+	</string>
+	<string id="dusk_living_legend_finish_3">
+		<text>That's definitely something I can work with. Good job. Our client'll know what to do with this.</text>
+	</string>
+	<string id="dusk_living_legend_finish_4">
+		<text>Uhm, can we trust our client with all that info?</text>
+	</string>
+	<string id="dusk_living_legend_finish_5">
+		<text>Trust? What are you talking about? Don't worry, we aren't selling this to any dictator or anything. We'd all like to earn some money but without blowing up the planet in the process, right? Speaking of money, you deserve a reward. If you get any nightmares, just use the money as a pillow. It should help.</text>
+	</string>
 
 </string_table>

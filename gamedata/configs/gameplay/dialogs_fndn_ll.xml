@@ -1,31 +1,124 @@
 <game_dialogs>
 
-    <dialog id="fndn_ll_storyline_1">
-        <phrase_list>
 
-            <phrase id="0">
-                <text>
-                fndn_ll_start_1
-                </text>
-                <next>1</next>
-            </phrase>
-
-            <phrase id="1">
-                <text>
-                fndn_ll_dusk_reply_1
-                </text>
-                <next>2</next>
-            </phrase>
-
-            <phrase id="2">
-                <text>
-                 fndn_ll_start_2
-                </text>
-                <give_info>drx_questlines_about_info</give_info>
+	    <!-- Dusk (Foundation) Start Game -->
+	<dialog id="dusk_questlines_about_dialog">
+		<precondition>dialogs.actor_true_fndn</precondition>
+		<dont_has_info>drx_questlines_about_info</dont_has_info>
+		<dont_has_info>living_legend_info_about_done</dont_has_info>
+		<dont_has_info>story_mode_disabled</dont_has_info>
+		<dont_has_info>faction_limited_playthrough</dont_has_info>
+		<phrase_list>
+			<phrase id="0">  <!-- Actor -->
+				<text>dusk_questlines_about_dialog_0</text>
+				<next>1</next>
+			</phrase>
+		    <phrase id="1">  <!-- NPC -->
+                <text>dusk_questlines_about_dialog_1</text>
+				<give_info>drx_questlines_about_info</give_info> 
 				<give_info>living_legend_info_about_done</give_info>
             </phrase>
+		</phrase_list>
+	</dialog>
 
+	<dialog id="drx_sl_stalker_fndn_faction_trader_game_start_dialog_1">
+		<has_info>drx_sl_start_game_stalker_fndn_faction_trader</has_info>
+		<has_info>drx_questlines_about_info</has_info>
+		<phrase_list>
+			<phrase id="0">  <!-- Actor -->
+				<text>drx_sl_stalker_fndn_faction_trader_game_start_dialog_1_0</text>
+				<next>1</next>
+			</phrase>
+		    <phrase id="1">  <!-- NPC -->
+                <text>drx_sl_stalker_fndn_faction_trader_game_start_dialog_1_1</text>
+                <disable_info>drx_sl_start_game_stalker_fndn_faction_trader</disable_info>
+				<action>xr_effects.drx_sl_decrease_sl_tasks_count</action>
+				<action>xr_effects.drx_sl_meet_random_honcho</action>
+            </phrase>
+		</phrase_list>
+	</dialog>
+	
+
+	<dialog id="drx_sl_stalker_fndn_faction_trader_meet_dialog">
+		<has_info>drx_sl_meet_honcho_stalker_fndn_faction_trader</has_info>
+        <init_func>dialog_manager.drx_sl_init_honcho_meet_dialog</init_func>
+    </dialog>
+
+
+    <dialog id="dusk_living_legend">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<has_info>living_legend_info_about_done</has_info>
+	<dont_has_info>living_legend</dont_has_info>
+	<dont_has_info>living_legend_fndn</dont_has_info>
+	<dont_has_info>story_mode_disabled</dont_has_info>
+	<dont_has_info>faction_limited_playthrough</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_living_legend_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_living_legend_1</text>
+				<next>2</next>
+				<next>21</next>
+			</phrase>
+			<phrase id="2">
+                <text>dusk_living_legend_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="21">
+                <text>dusk_living_legend_21</text>
+			</phrase>
+			<phrase id="3">
+                <text>dusk_living_legend_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+                <text>dusk_living_legend_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+                <text>dusk_living_legend_5</text>
+				<give_info>living_legend</give_info>
+				<give_info>living_legend_alt</give_info>
+				<give_info>living_legend_killer</give_info>
+				<action>dialogs_lostzone.give_task_lttz_ll_find_doctor</action>
+			</phrase>
         </phrase_list>
     </dialog>
+
+    <dialog id="dusk_living_legend_finish">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<has_info>living_legend_strelok_answers</has_info>
+	<dont_has_info>dusk_living_legend_finish</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_living_legend_finish_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_living_legend_finish_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+                <text>dusk_living_legend_finish_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+                <text>dusk_living_legend_finish_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+                <text>dusk_living_legend_finish_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+                <text>dusk_living_legend_finish_5</text>
+				<give_info>dusk_living_legend_finish</give_info>
+				<give_info>living_legend_done</give_info>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
 
 </game_dialogs>

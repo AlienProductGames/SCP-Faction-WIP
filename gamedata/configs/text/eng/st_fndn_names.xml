@@ -12,4 +12,19 @@
         <string id="stalker_fndn_faction_mechanic_bio">
             <text> Test </text>
         </string>
+
+        <string id="stalker_fndn_faction_medic_name">
+                <text>Dave</text>
+            </string>
+        <string id="stalker_fndn_faction_medic_bio">
+            <text> Test </text>
+        </string>
+
+        <string id="st_pol_smart_terrain_mechanic_name">
+		    <text>Meadow. Mechanic</text>
+	    </string>
+        <string id="st_pol_smart_terrain_trader_name">
+		    <text>Meadow. Dusk</text>
+	    </string>
+
     </string_table>

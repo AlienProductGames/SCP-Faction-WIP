@@ -28,12 +28,16 @@
 	</character>
 
 	<character id="stalker_fndn_faction_trader">
-        <class>stalker_fndn_faction_trader</class>
+        <class>fndn</class>
         <specific_character>stalker_fndn_faction_trader</specific_character>
     </character>
 	<character id="stalker_fndn_faction_mechanic">
-        <class>stalker_fndn_faction_mechanic</class>
+        <class>fndn</class>
         <specific_character>stalker_fndn_faction_mechanic</specific_character>
+    </character>
+	<character id="stalker_fndn_faction_medic">
+        <class>fndn</class>
+        <specific_character>stalker_fndn_faction_medic</specific_character>
     </character>
 
 </xml>

@@ -4,13 +4,13 @@
         <text>Hunt the Stalker</text>
     </string>
     <string id="simulation_task_fndn_1_text">
-        <text>Got a problematic stalker for you</text>
+        <text>Got a problematic stalker deal with.</text>
     </string>
     <string id="simulation_task_fndn_1_about">
-        <text>Got a problematic stalker for you</text>
+        <text>Got a problematic stalker for you if your willing.</text>
     </string>
     <string id="simulation_task_fndn_1_finish">
-        <text>Heres your reward</text>
+        <text>Heres your reward.</text>
     </string>
 
 
@@ -18,67 +18,173 @@
         <text>Hunt the Stalker</text>
     </string>
     <string id="simulation_task_fndn_2_text">
-        <text>Got a problematic stalker for you</text>
+        <text>Got a problematic stalker to deal with.</text>
     </string>
     <string id="simulation_task_fndn_2_about">
-        <text>Got a problematic stalker for you</text>
+        <text>Got a problematic stalker for you if your willing.</text>
     </string>
     <string id="simulation_task_fndn_2_finish">
-        <text>Heres your reward</text>    
+        <text>Heres your reward.</text>    
     </string>
 
     <string id="stalker_fndn_faction_trader_task_fndn_name">
         <text>Hunt the Stalker</text>
     </string>
     <string id="stalker_fndn_faction_trader_task_fndn_text">
-        <text>Got a little problem for you</text>
+        <text>Got a problematic stalker to deal with.</text>
     </string>
     <string id="stalker_fndn_faction_trader_task_fndn_about">
-        <text>Got a little problem for you to deal with.</text>
+        <text>Got a problematic stalker for you if your willing.</text>
     </string>
     <string id="stalker_fndn_faction_trader_task_fndn_finish">
-        <text>Heres your reward</text>
+        <text>Heres your reward.</text>
     </string>
 
     <!-- delivery -->
     <string id="simulation_task_fndn_3_name">
-        <text>delivery</text>
+        <text>Delivery</text>
     </string>
     <string id="simulation_task_fndn_3_text">
-        <text>can you delivery this for me?</text>
+        <text>A Delivory job</text>
     </string>
     <string id="simulation_task_fndn_3_about">
-        <text>can you delivery this for me?</text>
+        <text>Can you delivery this for me? It's for a friend.</text>
     </string>
     <string id="simulation_task_fndn_3_finish">
-        <text>Heres your reward</text>
+        <text>Heres your reward.</text>
     </string>
 
     <!-- Find missing squad -->
     <string id="simulation_task_fndn_4_name">
-        <text>Find missing squad</text>
+        <text>Find Missing Squad</text>
     </string>
     <string id="simulation_task_fndn_4_text">
-        <text>we got a missing squad, think you can go find them?</text>
+        <text>Find the Missing Squad.</text>
     </string>
     <string id="simulation_task_fndn_4_about">
-        <text>we got a missing squad, think you can go find them?</text>
+        <text>We got a missing squad, think you can go find them and make sure their alive?</text>
     </string>
     <string id="simulation_task_fndn_4_finish">
-        <text>Heres your reward</text>
+        <text>Heres your reward.</text>
     </string>
 
-        <string id="simulation_task_fndn_5_name">
+    <string id="simulation_task_fndn_5_name">
         <text>Find missing squad</text>
     </string>
     <string id="simulation_task_fndn_5_text">
-        <text>we got a missing squad, think you can go find them?</text>
+        <text>Find the Missing Squad.</text>
     </string>
     <string id="simulation_task_fndn_5_about">
-        <text>we got a missing squad, think you can go find them?</text>
+        <text>We got a missing squad, think you can go find them and make sure their alive?</text>
     </string>
     <string id="simulation_task_fndn_5_finish">
-        <text>Heres your reward</text>
+        <text>Heres your reward.</text>
+    </string>
+
+    <string id="stalker_fndn_faction_trader_task_2_name">
+        <text>Assault Enemy Territory</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_2_text">
+        <text>I need to Assault Enemy Territory.</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_2_about">
+        <text>I need you to Reinforce our guys in Enemy Territory at this location. Can you do that?</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_2_finish">
+        <text>Welcome back. Thank you, heres your reward.</text>
+    </string>
+
+    <string id="stalker_fndn_faction_trader_task_3_name">
+        <text>Find Important Documents</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_3_text">
+        <text>I need to find Documents for Dusk.</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_3_about">
+        <text>I need you to find some documents from this location. Can you do that?</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_3_finish">
+        <text>Welcome back. Thank you, heres your reward.</text>
+    </string>
+
+    <string id="stalker_fndn_faction_trader_mlr_task_2_name">
+        <text>Find Patches</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_mlr_task_2_text">
+        <text>I need to Patches for Dusk.</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_mlr_task_2_about">
+        <text>Heres something for you to do while we get set up here. Think of it as a fun hunting game.</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_mlr_task_2_fetch_about">
+        <text>Heres your goal. Goodluck.</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_mlr_task_2_fetch_finish">
+        <text>Good job. Heres a reward.</text>
+    </string>
+
+    <string id="stalker_fndn_faction_medic_task_1_name">
+        <text>Find a Drugkit</text>
+    </string>
+    <string id="stalker_fndn_faction_medic_task_1_text">
+        <text>I need to find a Drugkit for Dave.</text>
+    </string>
+    <string id="stalker_fndn_faction_medic_task_1_about">
+        <text>about</text>
+    </string>
+    <string id="stalker_fndn_faction_medic_task_1_fetch_about">
+        <text>We haven't gotten all our supplies yet, think you can find a drugkit for me?</text>
+    </string>
+    <string id="stalker_fndn_faction_medic_task_1_fetch_finish">
+        <text>Thank you! Your a life saver.</text>
+    </string>
+
+    <string id="stalker_fndn_faction_mechanic_task_1_name">
+        <text>Find a Basic Toolkit</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_1_text">
+        <text>I need to find a Basic Toolkit for Smith.</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_1_about">
+        <text>We haven't gotten all our supplies yet, think you can find a basic toolkit for me?</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_1_fetch_about">
+        <text>Thanks. We really need these tools.</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_1_fetch_finish">
+        <text>Thank you! Your a life saver.</text>
+    </string>
+
+    <string id="stalker_fndn_faction_mechanic_task_2_name">
+        <text>Find an Advanced Toolkit</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_2_text">
+        <text>I need to find an Advanced Toolkit for Smith.</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_2_about">
+        <text>We haven't gotten all our supplies yet, think you can find a basic toolkit for me?</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_2_fetch_about">
+        <text>Thanks. We really need these tools.</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_2_fetch_finish">
+        <text>Thank you! Your a life saver.</text>
+    </string>
+
+    <string id="stalker_fndn_faction_mechanic_task_3_name">
+        <text>Find an Expert Toolkit</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_3_text">
+        <text>I need to find an Expert Toolkit for Smith.</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_3_about">
+        <text>We haven't gotten all our supplies yet, think you can find a basic toolkit for me?</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_3_fetch_about">
+        <text>Thanks. We really need these tools.</text>
+    </string>
+    <string id="stalker_fndn_faction_mechanic_task_3_fetch_finish">
+        <text>Thank you! Your a life saver.</text>
     </string>
 
 </string_table>

@@ -8,7 +8,7 @@ function on_xml_read()
 			-- Here is my code to change XML
 			local fndn_starts =
 			[[
-		<string id="ui_st_pole_bandit_base">
+		<string id="ui_st_pole_factory">
 			<text>The Foundation (Meadow)</text>
 		</string>
 			]]

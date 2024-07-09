@@ -1,0 +1,37 @@
+function on_game_start()
+    if dmg_safr_pda_mcm then
+        ui_pda_relations_tab.enc_ref_list = { 
+            "loner", 
+            "duty", 
+            "freedom", 
+            "clear_sky", 
+            "ecologist", 
+            "mercenary", 
+            "military", 
+            "isg",
+			"fndn", 
+            "renegade", 
+            "bandit", 
+            "greh", 
+            "monolith", 
+            "zombified"
+        }
+    
+        ui_pda_relations_tab.faction_code_list = { 
+            "stalker", 
+            "dolg", 
+            "freedom", 
+            "csky", 
+            "ecolog", 
+            "killer", 
+            "army", 
+            "isg",
+			"fndn", 
+            "renegade", 
+            "bandit", 
+            "greh", 
+            "monolith", 
+            "zombied"
+        }
+    end
+end

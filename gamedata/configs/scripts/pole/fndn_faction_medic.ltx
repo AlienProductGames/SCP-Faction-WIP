@@ -1,0 +1,60 @@
+;;====================================================================================================================;;
+;;==================| Logic |=========================================================================================;;
+;;====================================================================================================================;;
+
+[logic@fndn_faction_medic]
+suitable                         = {=check_npc_name(stalker_fndn_faction_medic)} true
+prior                            = 140
+active                           = beh@stand
+level_spot                       = medic
+trade                            = items\trade\trade_fndn_medic.ltx
+relationship                     = neutral
+dont_keep_items                  = true
+net_spawn                        = pt1
+
+;;====================================================================================================================;;
+;;==================| Scheme |========================================================================================;;
+;;====================================================================================================================;;
+
+[beh@general]
+behavior_state                   = beh_move
+
+target                           = waypoint
+walk_dist                        = 100
+jog_dist                         = 220
+
+walk_anim                        = walk
+jog_anim                         = rush
+run_anim                         = rush
+
+gather_items_enabled             = false
+help_wounded_enabled             = false
+corpse_detection_enabled         = false
+invulnerable                     = true
+relationship                     = neutral
+meet                             = meet@base
+before_hit                       = invulnerable
+
+enemy_ignore_cond                = {!is_enemy_actor !fighting_dist_le(40)} true
+combat_ignore_cond               = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+combat_ignore_keep_when_attacked = {=is_warfare} false, true
+
+[beh@stand]:beh@general
+pt1                              = 10000, animpoint_sit_normal | pos:74.303207397461,2.5299058914185,198.90079345703 look:74.434624060988,1.9299058914185,197.01103651524
+path_end                         = loop
+
+;;====================================================================================================================;;
+;;==================| Meet |==========================================================================================;;
+;;====================================================================================================================;;
+
+[meet@base]
+close_snd_hello                  = meet_hello
+close_snd_bye                    = nil
+close_anim                       = nil
+close_victim                     = nil
+close_distance                   = 0
+far_anim                         = nil
+far_victim                       = nil
+far_distance                     = 0
+meet_on_talking                  = false
+use                              = true

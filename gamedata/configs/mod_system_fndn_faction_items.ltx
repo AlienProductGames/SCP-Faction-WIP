@@ -1,0 +1,41 @@
+[fndn_patch]:csky_patch
+visual = dynamics\tfw_badges\tfw_badge_fndn.ogf
+icons_texture = ui\ui_icon_fndnpatch.dds
+inv_name = st_fndn_fp
+inv_name_short = st_fndn_fp
+description = st_fndn_fp_descr
+inv_grid_x = 0
+inv_grid_y = 0
+
+[scp500]:booster
+$spawn 						                       = "food and drugs\drug_psy_blockade"
+visual						                       = dynamics\equipments\medical\drug_sleeping_pills.ogf
+kind			                                   = i_medical
+description					                       = st_scp500_descr
+cost						                       = 210560
+inv_name					                       = st_scp500
+inv_name_short				                       = st_scp500
+use_condition                            		   = true
+script_binding                                     = bind_item.bind
+max_uses                                 		   = 1
+inv_weight					                       = 0.005
+empty_weight					                   = 0.001
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 0
+inv_grid_y					                       = 0
+icons_texture                                      = ui\scp500
+upgr_icon_path								 	   = ui\scp500
+upgr_icon_x								 	 	   = 150
+upgr_icon_y								 	 	   = 50
+upgr_icon_width						 	 	 	   = 150
+upgr_icon_height						 	 	   = 50
+boost_time					                       = 10
+boost_health_restore		                       = 0.03
+boost_bleeding_restore 		                       = 0.05
+boost_radiation_restore		                       = 0.065
+eat_satiety					                       = 0.5
+eat_sleepiness				                       = -0.5
+eat_thirstiness				                       = -0.5
+use_sound					                       = interface\inv_eat_pills_2
+tier = 5

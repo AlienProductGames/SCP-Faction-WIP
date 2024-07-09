@@ -1,0 +1,44 @@
+;[[
+
+; Tronex
+; 2019/5/16
+; Lookup list for fetch items
+;-----------------------------
+; 
+; How to call an item list from a fetch task:
+; 	fetch_func = %=setup_fetch_task(simulation_task_1_fetch:supplies:1:4)%
+; [supplies] is defined here, it contains suitable item sections for the task
+; 
+; Weapons:
+; in Anomaly 1.5, fetch weapons tasks will pick weapons suitable for NPC's rank and faction preference
+; Result will be a list that contain shared weapons from [weapons_"rank"] and [weapons_"preference"], so a novice duty guy will pick a weapon exists in [weapons_eastern] and [weapons_novice]
+; If no proper result is found, it will pick a weapon from [weapons]
+;
+; Added support for tiered items (Balathruin)
+; When a fetch item has a tier defined in its section, it will be picked during rotation if its tier suits NPC's rank
+; section with value "true" here will ingore their original tier and get included for all npcs despite their ranks
+; You can control suitable tiers per NPC's rank inside [fetch_tiers]
+
+
+;------------------------------------------------------------------------
+
+
+![patch_mlr_duty] 
+	fndn_patch                      = true
+
+
+![patch_mlr_monolith] 
+	fndn_patch                      = true
+
+
+
+![patch_mlr_bandit] 
+	fndn_patch                      = true
+
+![patch_mlr_greh] 
+	fndn_patch                      = true
+
+@[patch_mlr_fndn]
+	bandit_patch                       = true
+	dolg_patch                         = true
+	monolith_patch                     = true

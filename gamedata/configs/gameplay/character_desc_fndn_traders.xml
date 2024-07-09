@@ -17,17 +17,18 @@
             <money min="100000000" max="100000000" infinitive="1"/>
             <reputation>2200</reputation>
 
-        <actor_dialog>fndn_ll_storyline_1</actor_dialog>
+        <actor_dialog>dusk_questlines_about_dialog</actor_dialog>
+        <actor_dialog>drx_sl_stalker_fndn_faction_trader_game_start_dialog_1</actor_dialog>
+        <actor_dialog>dusk_living_legend</actor_dialog>
+        <actor_dialog>dusk_living_legend_finish</actor_dialog>
 	    <actor_dialog>dm_init_trader</actor_dialog>
 		<!-- LTTZ -->
 		<actor_dialog>drx_sl_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
-		<!--actor_dialog>buy_extra_items</actor_dialog-->
 		<actor_dialog>debt_register</actor_dialog>
 		<actor_dialog>debt_pay_off</actor_dialog>
 		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
-		<actor_dialog>drx_sl_change_faction_dialog</actor_dialog>
-        <actor_dialog>find_blackbox_mlr_reward_killer</actor_dialog> <!-- MLR -->		
+        <actor_dialog>drx_sl_stalker_fndn_faction_trader_meet_dialog</actor_dialog> <!-- MLR -->		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
@@ -58,4 +59,28 @@
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>										  
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
+
+    <specific_character id="stalker_fndn_faction_medic" team_default="1">
+		<name>stalker_fndn_faction_medic_name</name>
+        <bio>stalker_fndn_faction_medic_bio</bio>
+		<icon>Zone_Wonderer_portrait</icon>	
+        <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
+        <snd_config>characters_voice\human\foundation\</snd_config>
+
+        <map_icon x="1" y="0"/>
+		<class>stalker_fndn_faction_medic</class>
+		<community>fndn</community>
+		<terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>15000</rank>
+		<money min="1000000" max="1000000" infinitive="1"/>
+        <reputation>2200</reputation>
+		
+		<actor_dialog>dm_init_medic</actor_dialog>
+		<actor_dialog>dm_medic_general</actor_dialog>
+		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
+		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
 </xml>
