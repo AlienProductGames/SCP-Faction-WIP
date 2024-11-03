@@ -1,4 +1,6 @@
 <string_table>
+ 
+ 	<!-- -->
 
 	<string id="drx_sl_stalker_fndn_faction_trader_meet_task_1_name">
 		<text>Meet with Dusk</text>
@@ -6,6 +8,8 @@
 	<string id="drx_sl_stalker_fndn_faction_trader_meet_task_1_text">
 		<text>Dusk should be in his office.</text>
 	</string>
+	
+	<!-- -->
 
 	<string id="drx_sl_stalker_fndn_faction_trader_start_game_1_name">
 		<text>Meet Dusk</text>
@@ -13,17 +17,23 @@
 	<string id="drx_sl_stalker_fndn_faction_trader_start_game_1_text">
 		<text>I should go talk to Dusk.</text>
 	</string>
+	
+	<!-- -->
 
     <string id="drx_sl_start_msg_fndn">
 		<text>I got a mission for any sucker wanting some overtime.</text>
 	</string>
+	
+	<!-- -->
 
 	<string id="drx_sl_stalker_fndn_faction_trader_game_start_dialog_1_0">
-		<text>Meet Dusk</text>
+		<text>Know any leaders that might be willing to help out?</text>
 	</string>
 	<string id="drx_sl_stalker_fndn_faction_trader_game_start_dialog_1_1">
-		<text>I should go talk to Dusk.</text>
+		<text>Yes, theres a few, heres one for you.</text>
 	</string>
+	
+	<!-- -->
 
     <string id="dusk_questlines_about_dialog_0">
 		<text>Hey, I'm here for that mission</text>
@@ -31,7 +41,9 @@
     <string id="dusk_questlines_about_dialog_1">
 		<text>Really? are you sure new guy? It's nothing like back at the facility.</text>
 	</string>
-    
+	
+	<!-- -->
+
     <string id="dusk_living_legend_0">
 		<text>So, what's this important mission about?</text>
 	</string>
@@ -54,6 +66,8 @@
 		<text>I like your spirit. Go find Strelok's old friend, goes by Doctor. Here's a PDA with the Doctor's coordinates. DON'T lose it, got it? If I see you dead without it, I'm killing you again, kapeesh?.</text>
 	</string>
 	
+	<!-- -->
+
 	<string id="dusk_living_legend_finish_0">
 		<text>Mission accomplished.</text>
 	</string>
@@ -72,5 +86,67 @@
 	<string id="dusk_living_legend_finish_5">
 		<text>Trust? What are you talking about? Don't worry, we aren't selling this to any dictator or anything. We'd all like to earn some money but without blowing up the planet in the process, right? Speaking of money, you deserve a reward. If you get any nightmares, just use the money as a pillow. It should help.</text>
 	</string>
+	
+	<!-- -->
+
+	<string id="stalker_rogue_living_legend_start_76">
+		<text>What would someone like you want with strelok?</text>
+	</string>
+	<string id="stalker_rogue_living_legend_start_86">
+		<text>I just want information, nothing more.</text>
+	</string>
+	
+	<!-- -->
+
+	<string id="living_legend_strelok_start_16">
+		<text>Yes. I wasn't expecting Rogue to recruit anyone.</text>
+	</string>
+	
+	<!-- -->
+
+	<string id="stalker_stitch_dialog_meet_16">
+		<text>You've come with Rogue? That guy doesn't make friends easily, especially with soldiers. Although, you have something about you..</text>
+	</string>
+	
+	<!-- -->
+
+	<string id="lttz_ll_visit_smith_task_title">
+		<text>Ask Smith about what he knows about the Zone.</text>
+	</string>
+	
+	<!-- -->
+
+	<string id="lttz_ll_visit_smith_task_descr">
+		<text>Smith might know more about the Zone.</text>
+	</string>
+	
+	<!-- -->
+
+	<string id="smith_living_legend_0">
+		<text>Hey, Smith. I've been following the trail of a stalker named Strelok. He's headed north. Any ideas how can I get there?</text>
+	</string>
+	<string id="smith_living_legend_1">
+		<text>Huh? Ah, right. Strelok. I recognise that name. Guy knows the Zone like the back of his hand. He's got quite a few achievements to his credit, too. Anyway, you wanna go north? You're finally ready to bid farewell to this cruel world?</text>
+	</string>
+	<string id="smith_living_legend_2">
+		<text>Come on, I can manage just fine. Just tell me what'd be the best course of action.</text>
+	</string>
+	<string id="smith_living_legend_3">
+		<text>The best? Don't go there. The second best? I suppose you should visit the eggheads in Yantar and get some device to shield you from the psy-field. Then, talk with Gatekeeper. The bastard eats Monolith fanatics for breakfast. He helps hold the Barrier and repeatedly fends off their southward incursions. Radar is the only semi-sensible route you'd want to take if you wish to go north. But be prepared for packs of vicious mutants, labyrinthine anomalies, extreme radiation levels, and well-armed Monolith soldiers guarding the way.</text>
+	</string>
+	<string id="smith_living_legend_4">
+		<text>Doesn't sound great, but I don't intend to abandon my mission.</text>
+	</string>
+	<string id="smith_living_legend_5">
+		<text>That's your choice, of course. Some adventurous stalkers do make it now and then. No pain, no gain... as the kids say. Anyway, Gatekeeper will know more about this, so he's your next stop.</text>
+	</string>
+	<string id="smith_living_legend_6">
+		<text>Thanks, Smith. I'll be going now.</text>
+	</string>
+	<string id="smith_living_legend_7">
+		<text>No problem. Good Luck rookie.</text>
+	</string>
+	
+
 
 </string_table>

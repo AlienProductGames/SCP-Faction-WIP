@@ -80,8 +80,8 @@
 			<phrase id="5">
                 <text>dusk_living_legend_5</text>
 				<give_info>living_legend</give_info>
-				<give_info>living_legend_alt</give_info>
-				<give_info>living_legend_killer</give_info>
+				<give_info>living_legend_smh</give_info>
+				<give_info>living_legend_fndn</give_info>
 				<action>dialogs_lostzone.give_task_lttz_ll_find_doctor</action>
 			</phrase>
         </phrase_list>
@@ -116,6 +116,48 @@
                 <text>dusk_living_legend_finish_5</text>
 				<give_info>dusk_living_legend_finish</give_info>
 				<give_info>living_legend_done</give_info>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+	<dialog id="smith_living_legend">
+	<has_info>living_legend</has_info>
+	<has_info>living_legend_smh</has_info>
+	<has_info>lttz_ll_visit_agro_ug_task_done</has_info>
+	<dont_has_info>living_legend_smith</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>smith_living_legend_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>smith_living_legend_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>smith_living_legend_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>smith_living_legend_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>smith_living_legend_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>smith_living_legend_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>smith_living_legend_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+			<has_info>living_legend_fndn</has_info>
+				<text>smith_living_legend_7</text>
+				<give_info>living_legend_smith</give_info>
 			</phrase>
         </phrase_list>
     </dialog>

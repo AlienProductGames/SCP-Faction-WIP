@@ -26,5 +26,8 @@
         <string id="st_pol_smart_terrain_trader_name">
 		    <text>Meadow. Dusk</text>
 	    </string>
+        <string id="st_pol_smart_terrain_medic_name">
+		    <text>Meadow. Dave</text>
+	    </string>
 
     </string_table>

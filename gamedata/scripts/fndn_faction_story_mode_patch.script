@@ -16,7 +16,7 @@ dialogs_lostzone.lttz_faction_infos = {
 			[2] = "living_legend_fndn_answer",
 			[3] = "mortal_sin_fndn",
 			[4] = "operation_afterglow_fndn",
-			[5] = "living_legend_st",
+			[5] = "living_legend_smh",
         },
         task = {
 			[1] = "lttz_ll_finish_fndn",
@@ -25,7 +25,7 @@ dialogs_lostzone.lttz_faction_infos = {
 			[4] = "lttz_ms_ambush_fndn",
 			[5] = "lttz_ms_urban_warfare_fndn",
 			[6] = "lttz_ms_zone_hero_fndn",
-			[7] = "lttz_ll_visit_barkeep",
+			[7] = "lttz_ll_visit_smith",
         }
     }
 }

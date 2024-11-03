@@ -3,11 +3,13 @@ squad_count = 4
 max_population = 12
 respawn_idle = 86400
 arrive_dist = 30
+respawn_params = respawn@pol_smart_terrain_2_2
+
 
 ![respawn@pol_smart_terrain_2_2]
-!spawn_burer
 spawn_fndn@novice
 spawn_fndn@advanced
+!spawn_burer
 
 @[spawn_fndn@novice]
 spawn_squads = fndn_sim_squad_novice
@@ -17,3 +19,6 @@ spawn_num = 3
 spawn_squads = fndn_sim_squad_advanced
 spawn_num = 3
 
+!![spawn_burer]
+!spawn_squads = simulation_burer
+!spawn_num = 2

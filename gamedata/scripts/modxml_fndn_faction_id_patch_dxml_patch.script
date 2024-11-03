@@ -1,0 +1,22 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[ui\ui_patches.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+            -- Here is my code to change XML
+            local ui_patches =
+            [[
+           	<patch_fndn  x="120" y="672" width="24" height="32" alignment="c" scale="1" scale_min="1" scale_max="1" stretch = "1">
+		    <texture>ui_mm_faction_fndn</texture>
+	        </patch_fndn>
+
+            <patch_dead_fndn  x="120" y="672" width="24" height="32" alignment="c" scale="1" scale_min="1" scale_max="1" stretch = "1">
+		    <texture>ui_mm_faction_fndn_inactive</texture>
+	        </patch_dead_fndn>
+            ]]
+            xml_obj:insertFromXMLString(ui_patches)           
+        end
+    end)
+end

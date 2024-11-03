@@ -1,0 +1,6 @@
+<w>
+	<file name="ui\ui_mm_faction_fndn">
+		<texture id="ui_mm_faction_fndn"		            x="0" y="0" 	    width="64" height="64" />
+		<texture id="ui_mm_faction_fndn_inactive"		x="65" y="0" 	    width="64" height="64" />
+	</file>
+</w>

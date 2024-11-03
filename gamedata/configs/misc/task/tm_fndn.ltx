@@ -183,6 +183,18 @@ condlist_1 = {!is_alive(stalker_fndn_faction_trader)} fail
 on_fail = %=drx_sl_decrease_sl_tasks_count() =drx_sl_meet_random_honcho()%
 
 
+[lttz_ll_visit_smith]
+icon = ui_icon_news_fndn
+prior = 195
+storyline = true
+
+title = lttz_ll_visit_smith_task_title
+target = stalker_fndn_faction_mechanic
+descr = lttz_ll_visit_smith_task_descr
+
+on_complete = %=give_task(lttz_ll_call_north) =reward_item(drug_psy_blockade)%
+condlist_0 = {+living_legend_smith} complete
+
 
 [lttz_ll_finish_fndn]
 icon = ui_iconsNpc_stalker_do_komandir

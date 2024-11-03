@@ -7,6 +7,6 @@
 	</file>
 	
 	<file name="ui\new_game\ui_new_game_factions_fndn">
-		<texture id="ui_new_game_flair_fndn" x="100" y="400" width="104" height="80" />
+		<texture id="ui_new_game_flair_fndn" x="0" y="0" width="90" height="80" />
 	</file>
 </w>

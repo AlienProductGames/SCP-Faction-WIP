@@ -1,0 +1,26 @@
+function dialogs.actor_fndn(first_speaker, second_speaker)
+	return character_community(db.actor) == "actor_fndn"
+end
+
+function dialogs.actor_not_fndn(first_speaker, second_speaker)
+    return character_community(db.actor) ~= "actor_fndn"
+end
+
+function dialogs.actor_true_fndn(first_speaker, second_speaker)
+    return get_actor_true_community() == "fndn"
+end
+
+function dialogs.actor_not_true_fndn(first_speaker, second_speaker)
+    return get_actor_true_community() ~= "fndn"
+end
+
+function dialogs.npc_fndn(first_speaker, second_speaker)
+	local npc = who_is_npc(first_speaker, second_speaker)
+	return character_community(npc) == "fndn"
+end 
+
+dialogs.story_factions["fndn"] = true
+
+dialogs.important_docs_warfare_names["fndn"] = "stalker_fndn_faction_trader"
+
+dialogs_mlr.community["fndn"] = "Foundation"
