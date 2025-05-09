@@ -15,92 +15,92 @@
 
 <specific_character id="sim_default_fndn_0_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
 		
 <specific_character id="sim_default_fndn_0_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_0_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
-    <icon>Foundation_Guard_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <icon>killer_Guard_portrait</icon>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_0</visual>
 </specific_character>
     
@@ -108,154 +108,154 @@
 <specific_character id="sim_default_fndn_1_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_1_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_13" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_gas_mask</visual>
 </specific_character>
 
 <specific_character id="sim_default_fndn_1_default_14" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_15" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_16" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_gas_mask</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_17" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_18" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_19" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_20" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_1_default_21" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_1.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
@@ -264,154 +264,154 @@
 <specific_character id="sim_default_fndn_2_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_13" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
  	
 <specific_character id="sim_default_fndn_2_default_14" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_15" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_16" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_17" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_18" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_19" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_20" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_21" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
@@ -419,49 +419,49 @@
 <specific_character id="sim_default_fndn_3_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_3_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_3_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_3_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_fndn_3_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_fndn_3_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_3_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
@@ -470,118 +470,118 @@
 <specific_character id="sim_default_fndn_4_default_0" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_4_default_1" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_4_default_2" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_4_default_3" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_fndn_4_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_4_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_4_default_6" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_4_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_4_default_9" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_4_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 
 <specific_character id="sim_default_fndn_4_default_10" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_4_default_11" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_4_default_12" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_4_default_13" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_4_default_14" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_4_default_15" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
  
 <specific_character id="sim_default_fndn_4_default_16" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_4.xml"
     <icon>Zone_Wonderer_portrait</icon>
-    <snd_config>characters_voice\human\foundation\</snd_config>
+    <snd_config>characters_voice\human\killer\</snd_config>
     <visual>actors\stalker_fndn\stalker_fndn_1</visual>
 </specific_character>
