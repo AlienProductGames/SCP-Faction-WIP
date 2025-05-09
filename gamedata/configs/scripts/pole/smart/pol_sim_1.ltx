@@ -1,0 +1,18 @@
+[smart_terrain]
+squad_id = 4
+max_population = 8
+respawn_params = respawn@pol_sim_1
+respawn_idle = 86400
+
+[respawn@pol_sim_1]
+spawn_fndn@novice
+spawn_fndn@advanced
+
+[spawn_fndn@novice]
+spawn_squads = fndn_sim_squad_novice
+spawn_num = 2
+
+[@spawn_fndn@advanced]
+spawn_squads = fndn_sim_squad_advanced
+spawn_num = 2
+

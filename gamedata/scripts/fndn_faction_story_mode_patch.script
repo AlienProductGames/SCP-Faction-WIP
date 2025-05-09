@@ -2,7 +2,7 @@
 ---                                                                                                                  ---
 ---    Original Author(s) : AlienProduct        	                                                                 ---
 ---    Edited : N/A                                                                                                  ---
----    Date : December 11 23                                                                                         ---
+---    Date : Dec/11/23                                                                                         ---
 ---    						                                                                                         ---
 ---                                                                                                                  ---
 ---==================================================================================================================---
@@ -32,4 +32,20 @@ dialogs_lostzone.lttz_faction_infos = {
 
 function give_task_lttz_ll_finish_fndn()
 	dialogs_lostzone.give_task('lttz_ll_finish_fndn')
+end
+
+function give_task_lttz_ms_start_fndn()
+	dialogs_lostzone.give_task('lttz_ms_start_fndn')
+end
+
+function give_task_lttz_ms_report_fndn()
+	dialogs_lostzone.give_task('lttz_ms_report_fndn')
+end
+
+function give_task_lttz_ms_urban_warfare_fndn()
+	dialogs_lostzone.give_task('lttz_ms_urban_warfare_fndn')
+end
+
+function give_task_lttz_ms_zone_hero_fndn()
+	dialogs_lostzone.give_task('lttz_ms_zone_hero_fndn')
 end

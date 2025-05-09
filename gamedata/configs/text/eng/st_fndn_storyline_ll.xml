@@ -89,13 +89,19 @@
 	
 	<!-- -->
 
-	<string id="stalker_rogue_living_legend_start_76">
+	<string id="stalker_rogue_living_legend_start_77">
 		<text>What would someone like you want with strelok?</text>
 	</string>
-	<string id="stalker_rogue_living_legend_start_86">
+	<string id="stalker_rogue_living_legend_start_87">
 		<text>I just want information, nothing more.</text>
 	</string>
 	
+	<!-- -->
+
+	<string id="stalker_stitch_dialog_meet_16">
+		<text>What do we have here? You've come with Rogue, eh? That guy doesn't make friends easily. especially with secretive factions. What, did you threaten his family? Just joking. He doesn't have one.</text>
+	</string>
+
 	<!-- -->
 
 	<string id="living_legend_strelok_start_16">
@@ -104,10 +110,25 @@
 	
 	<!-- -->
 
-	<string id="stalker_stitch_dialog_meet_16">
-		<text>You've come with Rogue? That guy doesn't make friends easily, especially with soldiers. Although, you have something about you..</text>
+	<string id="living_legend_strelok_answers_290">
+		<text>I can scarcely believe that the Zone is man-made. I've seen the Miracle Machine and the Brain Scorcher, but this... How did they manage to achieve that?</text>
 	</string>
-	
+	<string id="living_legend_strelok_answers_2910">
+		<text>With something far more powerful. I believe that the Power Plant is somehow connected to this. Maybe one or more of the reactors used to work even after the incident in 1986. But that'd be only the possible power source. I heard rumours that there's a top secret installation even further north. An area so deep within the Zone that reality itself collapses in there. Vicious mutants, countless anomalies, Monolith troops... and a set of generators that were used in the failed experiment in 2006. They're mentioned in the documents you brought me. I might be able to find them one day.</text>
+	</string>
+
+	<!-- -->
+
+	<string id="living_legend_strelok_answers_77">
+		<text>Not the craziest things I've heard, believe me. I thank you for your information. All I ask is to remember I was never here.</text>
+	</string>
+	<string id="living_legend_strelok_answers_771">
+		<text>Odd Request but I'll respect it. You have my word.</text>
+	</string>
+	<string id="living_legend_strelok_answers_772">
+		<text>Good Luck.</text>
+	</string>
+
 	<!-- -->
 
 	<string id="lttz_ll_visit_smith_task_title">

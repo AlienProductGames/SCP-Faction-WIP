@@ -1,5 +1,5 @@
 function on_game_start()
-    if dmg_safr_pda_mcm then
+    if safr_pda_mcm then
         ui_pda_relations_tab.enc_ref_list = { 
             "loner", 
             "duty", 

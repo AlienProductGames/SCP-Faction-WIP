@@ -1,0 +1,24 @@
+[lttz_ll_visit_smith]
+icon = Zone_Wonderer_portrait
+prior = 195
+storyline = true
+
+title = lttz_ll_visit_smith_task_title
+target = stalker_fndn_faction_mechanic
+descr = lttz_ll_visit_smith_task_descr
+
+on_complete = %=give_task(lttz_ll_call_north) =reward_item(drug_psy_blockade)%
+condlist_0 = {+living_legend_smith} complete
+
+
+[lttz_ll_finish_fndn]
+icon = Zone_Wonderer_portrait
+prior = 195
+storyline = true
+
+title = lttz_ll_finish_task_title
+target = bar_fndn_leader
+descr = lttz_ll_finish_fndn_task_descr
+
+on_complete = %=reward_money(30000) =reward_stash() =complete_task_inc_goodwill(100:fndn) =lttz_ll_take_strelok_pendrive%
+condlist_0 = {+dusk_living_legend_finish} complete

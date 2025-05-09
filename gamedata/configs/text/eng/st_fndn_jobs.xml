@@ -1,10 +1,24 @@
 <string_table>
+
+    <string id="drx_sl_stalker_fndn_faction_trader_default_task_name">
+        <text>Get Next Orders</text>
+    </string>
+    <string id="drx_sl_stalker_fndn_faction_trader_default_task_text">
+        <text>Dusk has pointed me towards someone who may have a job for me. Let's go see who it is.</text>
+    </string>
+    <string id="drx_sl_stalker_fndn_faction_trader_default_task_about">
+        <text>There is a contact who is willing to pay well for our services. Go see him.</text>
+    </string>
+    <string id="sdrx_sl_stalker_fndn_faction_trader_default_task_finish">
+        <text>Good luck stalker.</text>
+    </string>
+
     <!-- bounty -->
     <string id="simulation_task_fndn_1_name">
         <text>Hunt the Stalker</text>
     </string>
     <string id="simulation_task_fndn_1_text">
-        <text>Got a problematic stalker deal with.</text>
+        <text>Deal with the problematic stalker</text>
     </string>
     <string id="simulation_task_fndn_1_about">
         <text>Got a problematic stalker for you if your willing.</text>
@@ -18,10 +32,10 @@
         <text>Hunt the Stalker</text>
     </string>
     <string id="simulation_task_fndn_2_text">
-        <text>Got a problematic stalker to deal with.</text>
+        <text>Deal with the troublesome stalker</text>
     </string>
     <string id="simulation_task_fndn_2_about">
-        <text>Got a problematic stalker for you if your willing.</text>
+        <text>Got a troublesome stalker for you if your willing.</text>
     </string>
     <string id="simulation_task_fndn_2_finish">
         <text>Heres your reward.</text>    
@@ -31,13 +45,40 @@
         <text>Hunt the Stalker</text>
     </string>
     <string id="stalker_fndn_faction_trader_task_fndn_text">
-        <text>Got a problematic stalker to deal with.</text>
+        <text>Deal with the troublesome stalker</text>
     </string>
     <string id="stalker_fndn_faction_trader_task_fndn_about">
-        <text>Got a problematic stalker for you if your willing.</text>
+        <text>Got a troublesome stalker for you if your willing.</text>
     </string>
     <string id="stalker_fndn_faction_trader_task_fndn_finish">
-        <text>Heres your reward.</text>
+        <text>Thank you. Heres your reward.</text>
+    </string>
+
+    <!-- ASSAULT TERRITORY FOR FNDN TASK -->
+	<string id="stalker_fndn_faction_trader_task_fndn_2_name">
+		<text>Assault territory</text>
+	</string>
+	<string id="stalker_fndn_faction_trader_task_fndn_2_text">
+		<text>I've been contracted to clear an area of any hostile forces present.</text>
+	</string>
+	<string id="stalker_fndn_faction_trader_task_fndn_2_about">
+		<text>I need you to be the point man on an assault. Clear the target area of any and all hostile forces.</text>
+	</string>
+	<string id="stalker_fndn_faction_trader_task_fndn_2_finish">
+		<text>Excellent work. Here's your reward.</text>
+	</string>
+
+    <string id="stalker_fndn_faction_trader_task_2_name">
+        <text>Assault Enemy Territory</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_2_text">
+        <text>I need to Assault Enemy Territory.</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_2_about">
+        <text>I need you to Reinforce our guys in Enemy Territory at this location. Can you do that?</text>
+    </string>
+    <string id="stalker_fndn_faction_trader_task_2_finish">
+        <text>Excellently done. Heres your reward.</text>
     </string>
 
     <!-- delivery -->
@@ -81,19 +122,21 @@
         <text>Heres your reward.</text>
     </string>
 
-    <string id="stalker_fndn_faction_trader_task_2_name">
-        <text>Assault Enemy Territory</text>
+    <!-- Scouting Expedition -->
+    <string id="simulation_task_fndn_6_name">
+        <text>Scouting Expedition</text>
     </string>
-    <string id="stalker_fndn_faction_trader_task_2_text">
-        <text>I need to Assault Enemy Territory.</text>
+    <string id="simulation_task_fndn_6_text">
+        <text>Some curious stalkers has been spotted in the area. I must deal with them before they get away.</text>
     </string>
-    <string id="stalker_fndn_faction_trader_task_2_about">
-        <text>I need you to Reinforce our guys in Enemy Territory at this location. Can you do that?</text>
+    <string id="simulation_task_fndn_6_about">
+        <text>There are reports of enemy activity in the neighbouring area, and our squad is tasked with engaging them. I'm looking for someone who is willing to scout ahead in preparation for our assault.</text>
     </string>
-    <string id="stalker_fndn_faction_trader_task_2_finish">
-        <text>Welcome back. Thank you, heres your reward.</text>
+    <string id="simulation_task_fndn_6_finish">
+        <text>Excellent! Well done.</text>
     </string>
 
+    <!-- Find Documents -->
     <string id="stalker_fndn_faction_trader_task_3_name">
         <text>Find Important Documents</text>
     </string>
@@ -107,6 +150,7 @@
         <text>Welcome back. Thank you, heres your reward.</text>
     </string>
 
+    <!-- Find Patches -->
     <string id="stalker_fndn_faction_trader_mlr_task_2_name">
         <text>Find Patches</text>
     </string>
@@ -123,6 +167,7 @@
         <text>Good job. Heres a reward.</text>
     </string>
 
+    <!-- Find Drugkit -->
     <string id="stalker_fndn_faction_medic_task_1_name">
         <text>Find a Drugkit</text>
     </string>
@@ -139,6 +184,7 @@
         <text>Thank you! Your a life saver.</text>
     </string>
 
+    <!-- Find Toolkits -->
     <string id="stalker_fndn_faction_mechanic_task_1_name">
         <text>Find a Basic Toolkit</text>
     </string>
@@ -185,6 +231,13 @@
     </string>
     <string id="stalker_fndn_faction_mechanic_task_3_fetch_finish">
         <text>Thank you! Your a life saver.</text>
+    </string>
+
+    <string id="st_trade_important_documents_ask_stalker_fndn_faction_trader">
+		<text>Truly entertaining... Documents about experiments on the territory of the Zone... In times of breakthrough, some of our important clients would offer fabulous sums for them. Times are different now, and it's not that we need them especially in this poor state, but the information here is still of sufficient value, hmmm... Let's do it. I'll take them now for %s RU. Deal?</text>
+	</string>
+	<string id="st_trade_important_documents_answer_stalker_fndn_faction_trader">
+		<text>That's fine. If you find the same kind of documents you should bring them, don't be shy.</text>
     </string>
 
 </string_table>

@@ -1,0 +1,113 @@
+<string_table>
+
+    <string id="lttz_ms_start_fndn_descr_kill">
+	    <text>You have obtained some useful information and killed the mysterious envoy. Report to Dusk.</text>
+    </string>
+
+    <string id="lttz_ms_start_fndn_descr_talk">
+	    <text>You have obtained some useful information from the envoy. Report to Dusk.</text>
+    </string>
+
+    <string id="lttz_ms_start_fndn_descr">
+	    <text>Dusk wants you to interrogate a mysterious envoy who stumbled upon our base.</text>
+    </string>
+
+    <string id="dusk_mortal_sin_0">
+		<text>Dusk, things seem a little tense at base. Anything going on?</text>
+	</string>
+	<string id="dusk_mortal_sin_1">
+		<text>Come to think of it, there's something strange I'd like you to deal with. A few days ago some sorta creepy guy decided to camp in this dump of a city. Wasn't hostile or anything, so we let him stay for the time being. Under a careful watch, just in case. Lately however he's been pestering the local mercs, on and on, about some disturbing spiritual crap. Talks about salvation and damnation, cleansing and what-not. People around here are beginning to think he's some Monolith bastard in disguise. Go have a proper talk with him. Find out what his deal is, and then deal with him.</text>
+	</string>
+	<string id="dusk_mortal_sin_2">
+		<text>Alright, I'll look into it. Guess I'm doing all the cleaning up when I'm done?</text>
+	</string>
+	<string id="dusk_mortal_sin_21">
+		<text>Doesn't sound too urgent. I'll talk to you again when I'm ready.</text>
+	</string>
+	<string id="dusk_mortal_sin_3">
+		<text>Yeah. Professional practice and all that. Now go.</text>
+	</string>
+	
+	<string id="dusk_mortal_sin_envoy_0">
+		<text>I've talked with that creepy guy.</text>
+	</string>
+	<string id="dusk_mortal_sin_envoy_1">
+		<text>Just a little chit-chat, eh? You aren't getting a little soft, are you?</text>
+	</string>
+	<string id="dusk_mortal_sin_envoy_11">
+		<text>And you put him down, too. That's great, we were all fed up with that nutter. What did you find out?</text>
+	</string>
+	<string id="dusk_mortal_sin_envoy_2">
+		<text>I didn't want to invoke retaliation. He's some sort of agent. Supposedly belongs to a clandestine faction called Sin. He claims that they know more about the Zone than anyone else, and that they'll take over the world or something. Basically, he looks for recruits to join their cause.</text>
+	</string>
+	<string id="dusk_mortal_sin_envoy_21">
+		<text>He was some sort of agent from a faction called Sin. He claimed that they know more about the Zone than anyone else, and they apparently plan to take over the world. Also, he was looking for recruits to join their cause.</text>
+	</string>
+	<string id="dusk_mortal_sin_envoy_3">
+		<text>Sin, you say. That actually rings a bell. I've had some reports regarding stalkers from a mysterious faction who engage in hit-and-run attacks on other stalkers. Alright. Might be worthwhile to beat some sense into our honoured guest. In the meantime, I want you to investigate a recent situation from the Red Forest. That's one of the places the mysterious stalkers, maybe from this "Sin" you've just learned about, are allegedly haunting. Start by talking with Forester, he'll know more about this.</text>
+	</string>
+	<string id="dusk_mortal_sin_envoy_31">
+		<text>Sin, you say. That actually rings a bell. I've had some reports regarding stalkers from a mysterious faction who engage in hit-and-run attacks on other stalkers. Alright. Let's say I'll take care of the mortal remains of our honoured guest. In the meantime, I want you to investigate a recent situation from the Red Forest. That's one of the places the mysterious stalkers, maybe from this "Sin" you've just learned about, are allegedly haunting. Start by talking with Forester, he'll know more about this.</text>
+	</string>
+	<string id="dusk_mortal_sin_envoy_4">
+		<text>No rest for the wicked. Okay, I'll go see what I can do.</text>
+	</string>
+	
+	<string id="dusk_mortal_sin_report_0">
+		<text>I've been to the Red Forest, Dusk.</text>
+	</string>
+	<string id="dusk_mortal_sin_report_1">
+		<text>And you found something worth reporting, yes?</text>
+	</string>
+	<string id="dusk_mortal_sin_report_2">
+		<text>Quite. Sin were pursuing a comrade of Strelok whom I met during my previous mission. I intercepted and destroyed their squad, then contacted the stalker. He said that Sin have been preparing to launch a large scale invasion on the southern sectors of the Zone. He's a reliable person, and everything so far seems to support his claim. I've got the squad leader's PDA in case you want to take a look.</text>
+	</string>
+	<string id="dusk_mortal_sin_report_3">
+		<text>Shit. At least the Monolith tend to focus on defending their own territory. Now we've got a warmongering bunch of fanatics to deal with. I'm not big on faction wars, but we need the current status quo to function here. Alrighty, we... wait a second. Our men have sighted hostile forces nearby. Fuck! We're under attack! Go intercept the enemy, I'll prepare a defensive perimeter here!</text>
+	</string>
+	<string id="dusk_mortal_sin_report_4">
+		<text>I'm going!</text>
+	</string>
+	
+	<string id="dusk_mortal_sin_ambush_0">
+		<text>I've kicked their asses.</text>
+	</string>
+	<string id="dusk_mortal_sin_ambush_1">
+		<text>Not bad. You've certainly earned your reputation. Still, we can't let those fuckers do as they please. Mercenary scouts have revealed this assault to be a diversion. The main Sin forces have slipped by us and are approaching the Brain Scorcher and Miracle Machine as I speak. They probably want those psychic defences back online. 'Course, we won't let that happen.</text>
+	</string>
+	<string id="dusk_mortal_sin_ambush_2">
+		<text>I can kill as many Sin fanatics as you want, but there's only one of me.</text>
+	</string>
+	<string id="dusk_mortal_sin_ambush_3">
+		<text>One of you is plenty. I'll assemble a task force to defend one of the installations. You can pick the one you want to protect yourself. Better hurry, we're working on a tight schedule here.</text>
+	</string>
+	<string id="dusk_mortal_sin_ambush_4">
+		<text>Miracle Machine. It's very close, so I might as well keep our neighbourhood secure.</text>
+	</string>
+	<string id="dusk_mortal_sin_ambush_41">
+		<text>Brain Scorcher. We can't let the enemy regain such a formidable stronghold.</text>
+	</string>
+	
+	<string id="dusk_mortal_sin_zone_hero_0">
+		<text>I've kicked Sin's collective asses to kingdom come. They won't be taking over the world any time soon.</text>
+	</string>
+	<string id="dusk_mortal_sin_zone_hero_1">
+		<text>Now that's a professional one-man army here if I've ever seen one. Great job, merc.</text>
+	</string>
+	<string id="dusk_mortal_sin_zone_hero_2">
+		<text>Well, I did get some help from Strelok and his Merry Men.</text>
+	</string>
+	<string id="dusk_mortal_sin_zone_hero_3">
+		<text>True that, but you're the one who's getting paid in the end. We can continue our usual operations undisturbed, and that's certainly something to look forward to. By the by, Strelok's group sent me a prisoner of war. He was asking for you. He's around here somewhere, maybe go speak to him.</text>
+	</string>
+	<string id="dusk_mortal_sin_zone_hero_31">
+		<text>True that, but you're the one who's getting paid in the end. We can continue our usual operations undisturbed, and that's certainly something to look forward to.</text>
+	</string>
+	<string id="dusk_mortal_sin_zone_hero_4">
+		<text>Has anything new cropped up yet?</text>
+	</string>
+	<string id="dusk_mortal_sin_zone_hero_5">
+		<text>Nope. Back to bog-standard contracts. Enjoy the routine.</text>
+	</string>
+
+</string_table>

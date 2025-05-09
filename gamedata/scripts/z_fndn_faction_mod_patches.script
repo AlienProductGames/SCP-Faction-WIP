@@ -1,8 +1,8 @@
 ---==================================================================================================================---
 ---                                                                                                                  ---
 ---    Original Author(s) :  Tosox, AlienProduct	                                                                 ---
----    Edited : 11/7/2024                                                                                            ---
----    Date : 15/10/2023                                                                                             ---
+---    Edited : Apr/13/2025                                                                                            ---
+---    Date : Sep/15/2023                                                                                             ---
 ---    						                                                                                         ---
 ---                                                                                                                  ---
 ---==================================================================================================================---
@@ -10,28 +10,12 @@
 --============================= _g =============================--
 _G.squad_community_by_behaviour["fndn"] = "fndn"
 
--- ex. squad_community_by_behaviour = {
---		["stalker"]							= "stalker",
---		["bandit"]							= "bandit",
---		ect.
-
 local orig_is_story_player = _G.IsStoryPlayer
 function _G.IsStoryPlayer()
 	return orig_is_story_player() or (gameplay_disguise.get_default_comm() == "fndn")
 end
 
---function IsStoryPlayer()
---	local comm = gameplay_disguise.get_default_comm()
---	return story_comm[comm]
---end
-
 _g.story_comm["fndn"] = true
-
--- local story_comm = {
---	["csky"] = true,
---	["dolg"] = true,
---  ect.
---	}
 
 --====================== death_manager =========================--
 local orig_init_drop_settings = death_manager.init_drop_settings
@@ -106,8 +90,8 @@ function ui_pda_relations_tab.pda_relations_tab.InitControls(self)
 	-- This addon can help maybe https://www.moddb.com/mods/stalker-anomaly/addons/show-all-faction-relation-in-pda-except-monolith
 	local actor_comm = get_actor_true_community()
 
-	if not dmg_safr_pda_mcm then
-		if actor_comm == "fndn" then
+	if not safr_pda_mcm then
+		if (actor_comm == "fndn") then
 			self.list[9] = "fndn"
 		end
 	end

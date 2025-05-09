@@ -80,4 +80,9 @@ npc_random = sim_default_fndn_barman
 npc_in_squad = 1, 1
 common			= true
 
-
+[pol_greh_envoy_squad]:online_offline_group
+faction = greh_npc
+npc = greh_envoy
+target_smart = pol_sim_1
+story_id = pol_greh_envoy
+on_death = %+greh_envoy_dead%

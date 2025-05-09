@@ -1,0 +1,187 @@
+<game_dialogs>
+
+    <dialog id="dusk_mortal_sin">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<!--has_info>mortal_sin_info_about_done</has_info-->
+	<has_info>dusk_living_legend_finish</has_info>
+	<dont_has_info>mortal_sin</dont_has_info>
+	<dont_has_info>mortal_sin_fndn</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>mortal_sin_start_text_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_mortal_sin_1</text>
+				<next>2</next>
+				<next>21</next>
+			</phrase>
+			<phrase id="2">
+                <text>dusk_mortal_sin_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="21">
+                <text>dusk_mortal_sin_21</text>
+			</phrase>
+			<phrase id="3">
+                <text>dusk_mortal_sin_3</text>
+				<give_info>mortal_sin</give_info>
+				<give_info>mortal_sin_fndn</give_info>
+				<action>fndn_faction_story_mode_patch.give_task_lttz_ms_start_fndn</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+    <dialog id="dusk_mortal_sin_envoy">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<has_info>mortal_sin_envoy_complete</has_info>
+	<dont_has_info>mortal_sin_red_forest</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_mortal_sin_envoy_0</text>
+				<next>1</next>
+				<next>11</next>
+            </phrase>
+			<phrase id="1">
+			<has_info>mortal_sin_envoy</has_info>
+			<dont_has_info>greh_envoy_dead</dont_has_info>
+				<text>dusk_mortal_sin_envoy_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="11">
+			<has_info>greh_envoy_dead</has_info>
+                <text>dusk_mortal_sin_envoy_11</text>
+				<next>21</next>
+			</phrase>
+			<phrase id="2">
+				<text>dusk_mortal_sin_envoy_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="21">
+				<text>dusk_mortal_sin_envoy_21</text>
+				<next>31</next>
+			</phrase>
+			<phrase id="3">
+				<text>dusk_mortal_sin_envoy_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="31">
+				<text>dusk_mortal_sin_envoy_31</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+                <text>dusk_mortal_sin_envoy_4</text>
+				<give_info>mortal_sin_red_forest</give_info>
+			</phrase>
+        </phrase_list>
+    </dialog>
+	
+	<dialog id="dusk_mortal_sin_report">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<has_info>stalker_stitch_mortal_sin_decoder</has_info>
+	<dont_has_info>mortal_sin_report</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_mortal_sin_report_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_mortal_sin_report_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dusk_mortal_sin_report_2</text>
+				<action>xr_effects.lttz_ms_take_attackers_pda</action>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>dusk_mortal_sin_report_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+                <text>dusk_mortal_sin_report_4</text>
+				<give_info>mortal_sin_report</give_info>
+				<action>dialogs_lostzone.give_task_lttz_ms_ambush_fndn</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+	
+	<dialog id="dusk_mortal_sin_ambush">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<has_info>greh_ambush_squad_dead</has_info>
+	<dont_has_info>mortal_sin_ambush</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_mortal_sin_ambush_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_mortal_sin_ambush_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dusk_mortal_sin_ambush_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>dusk_mortal_sin_ambush_3</text>
+				<next>4</next>
+				<next>41</next>
+				<action>dialogs_lostzone.set_impending_doom_timer</action>
+			</phrase>
+			<phrase id="4">
+                <text>dusk_mortal_sin_ambush_4</text>
+				<give_info>mortal_sin_ambush</give_info>
+				<action>dialogs_lostzone.give_task_lttz_ms_dark_crusade</action>
+				<action>dialogs_lostzone.give_task_lttz_ms_protect_miracle_machine</action>
+			</phrase>
+			<phrase id="41">
+                <text>dusk_mortal_sin_ambush_41</text>
+				<give_info>mortal_sin_ambush</give_info>
+				<action>dialogs_lostzone.give_task_lttz_ms_dark_crusade</action>
+				<action>dialogs_lostzone.give_task_lttz_ms_protect_brain_scorcher</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+	
+	<dialog id="dusk_mortal_sin_zone_hero">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<has_info>mortal_sin_choice</has_info>
+	<dont_has_info>mortal_sin_zone_hero</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_mortal_sin_zone_hero_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_mortal_sin_zone_hero_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>dusk_mortal_sin_zone_hero_2</text>
+				<next>3</next>
+				<next>31</next>
+			</phrase>
+			<phrase id="3">
+			<has_info>greh_prisoner_dialog_success</has_info>
+                <text>dusk_mortal_sin_zone_hero_3</text>
+				<next>4</next>
+				<give_info>lazarus_join</give_info>
+			</phrase>
+			<phrase id="31">
+			<dont_has_info>greh_prisoner_dialog_success</dont_has_info>
+                <text>dusk_mortal_sin_zone_hero_31</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>dusk_mortal_sin_zone_hero_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>dusk_mortal_sin_zone_hero_5</text>
+				<give_info>mortal_sin_zone_hero</give_info>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+</game_dialogs>

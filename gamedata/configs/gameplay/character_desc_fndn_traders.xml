@@ -21,9 +21,17 @@
         <actor_dialog>drx_sl_stalker_fndn_faction_trader_game_start_dialog_1</actor_dialog>
         <actor_dialog>dusk_living_legend</actor_dialog>
         <actor_dialog>dusk_living_legend_finish</actor_dialog>
+        <actor_dialog>dusk_mortal_sin</actor_dialog>
+		<actor_dialog>dusk_mortal_sin_envoy</actor_dialog>
+		<actor_dialog>dusk_mortal_sin_report</actor_dialog>
+		<actor_dialog>dusk_mortal_sin_ambush</actor_dialog>
+		<actor_dialog>dusk_mortal_sin_zone_hero</actor_dialog>
 	    <actor_dialog>dm_init_trader</actor_dialog>
+        <actor_dialog>dm_broker_dialog</actor_dialog>
+		<actor_dialog>dm_important_documents</actor_dialog>
 		<actor_dialog>drx_sl_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
+        <actor_dialog>buy_route</actor_dialog>
 		<actor_dialog>debt_register</actor_dialog>
 		<actor_dialog>debt_pay_off</actor_dialog>
 		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
