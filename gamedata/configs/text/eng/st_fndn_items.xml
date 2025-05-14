@@ -1,8 +1,8 @@
     <string_table>    
-            <string id="st_fndn500">
-                <text>fndn-500</text>
+            <string id="st_scp500">
+                <text>Panacea</text>
             </string>
-        <string id="st_fndn500_descr">
+        <string id="st_scp500_descr">
             <text> A small red pill said to cure all injury and desease.
             </text>
         </string>
