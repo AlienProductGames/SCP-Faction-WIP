@@ -86,3 +86,11 @@ npc = greh_envoy
 target_smart = pol_sim_1
 story_id = pol_greh_envoy
 on_death = %+greh_envoy_dead%
+
+[lim_fndn_assault_squad]:online_offline_group
+faction = fndn
+relationship = friend
+npc_random = sim_default_fndn_2, sim_default_fndn_3, sim_default_fndn_3, sim_default_fndn_4
+npc_in_squad = 6, 6
+story_id = lim_fndn_assault_squad
+on_death = %+lim_assault_squad_dead%

@@ -14,30 +14,30 @@
     </string>
 
     <!-- bounty -->
-    <string id="simulation_task_fndn_1_name">
+    <string id="simulation_task_68_name">
         <text>Hunt the Stalker</text>
     </string>
-    <string id="simulation_task_fndn_1_text">
+    <string id="simulation_task_68_text">
         <text>Deal with the problematic stalker</text>
     </string>
-    <string id="simulation_task_fndn_1_about">
+    <string id="simulation_task_68_about">
         <text>Got a problematic stalker for you if your willing.</text>
     </string>
-    <string id="simulation_task_fndn_1_finish">
+    <string id="simulation_task_68_finish">
         <text>Heres your reward.</text>
     </string>
 
 
-    <string id="simulation_task_fndn_2_name">
+    <string id="simulation_task_69_name">
         <text>Hunt the Stalker</text>
     </string>
-    <string id="simulation_task_fndn_2_text">
+    <string id="simulation_task_69_text">
         <text>Deal with the troublesome stalker</text>
     </string>
-    <string id="simulation_task_fndn_2_about">
+    <string id="simulation_task_69_about">
         <text>Got a troublesome stalker for you if your willing.</text>
     </string>
-    <string id="simulation_task_fndn_2_finish">
+    <string id="simulation_task_69_finish">
         <text>Heres your reward.</text>    
     </string>
 
@@ -82,57 +82,57 @@
     </string>
 
     <!-- delivery -->
-    <string id="simulation_task_fndn_3_name">
+    <string id="simulation_task_70_name">
         <text>Delivery</text>
     </string>
-    <string id="simulation_task_fndn_3_text">
+    <string id="simulation_task_70_text">
         <text>A Delivory job</text>
     </string>
-    <string id="simulation_task_fndn_3_about">
+    <string id="simulation_task_70_about">
         <text>Can you delivery this for me? It's for a friend.</text>
     </string>
-    <string id="simulation_task_fndn_3_finish">
+    <string id="simulation_task_70_finish">
         <text>Heres your reward.</text>
     </string>
 
     <!-- Find missing squad -->
-    <string id="simulation_task_fndn_4_name">
+    <string id="simulation_task_71_name">
         <text>Find Missing Squad</text>
     </string>
-    <string id="simulation_task_fndn_4_text">
+    <string id="simulation_task_71_text">
         <text>Find the Missing Squad.</text>
     </string>
-    <string id="simulation_task_fndn_4_about">
+    <string id="simulation_task_71_about">
         <text>We got a missing squad, think you can go find them and make sure their alive?</text>
     </string>
-    <string id="simulation_task_fndn_4_finish">
+    <string id="simulation_task_71_finish">
         <text>Heres your reward.</text>
     </string>
 
-    <string id="simulation_task_fndn_5_name">
+    <string id="simulation_task_72_name">
         <text>Find missing squad</text>
     </string>
-    <string id="simulation_task_fndn_5_text">
+    <string id="simulation_task_72_text">
         <text>Find the Missing Squad.</text>
     </string>
-    <string id="simulation_task_fndn_5_about">
+    <string id="simulation_task_72_about">
         <text>We got a missing squad, think you can go find them and make sure their alive?</text>
     </string>
-    <string id="simulation_task_fndn_5_finish">
+    <string id="simulation_task_72_finish">
         <text>Heres your reward.</text>
     </string>
 
     <!-- Scouting Expedition -->
-    <string id="simulation_task_fndn_6_name">
+    <string id="simulation_task_73_name">
         <text>Scouting Expedition</text>
     </string>
-    <string id="simulation_task_fndn_6_text">
+    <string id="simulation_task_73_text">
         <text>Some curious stalkers has been spotted in the area. I must deal with them before they get away.</text>
     </string>
-    <string id="simulation_task_fndn_6_about">
+    <string id="simulation_task_73_about">
         <text>There are reports of enemy activity in the neighbouring area, and our squad is tasked with engaging them. I'm looking for someone who is willing to scout ahead in preparation for our assault.</text>
     </string>
-    <string id="simulation_task_fndn_6_finish">
+    <string id="simulation_task_73_finish">
         <text>Excellent! Well done.</text>
     </string>
 

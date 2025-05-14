@@ -101,7 +101,7 @@
 			<phrase id="4">
                 <text>dusk_mortal_sin_report_4</text>
 				<give_info>mortal_sin_report</give_info>
-				<action>dialogs_lostzone.give_task_lttz_ms_ambush_fndn</action>
+				<action>fndn_faction_story_mode_patch.give_task_lttz_ms_ambush_fndn</action>
 			</phrase>
         </phrase_list>
     </dialog>

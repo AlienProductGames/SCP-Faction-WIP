@@ -61,8 +61,6 @@ function death_manager.get_comb_coeff(rank, comm)
 	end
 end
 
--- Skipped editing simulate_death_drops because it is an unused debug function
-
 --==================== debug_cmd_list =======================--
 local orig_cmd_relations = debug_cmd_list.cmd.relations
 function debug_cmd_list.cmd.relations(me, txt, owner, p)
@@ -223,17 +221,35 @@ table.insert(tasks_fetch.patch_general, "dolg")
 }
 
 --========= axr_task_manager (may or may not be added) ===========--
---axr_task_manager.drx_sl_main_honcho_table["fndn"] = "stalker_fndn_faction_trader"
---axr_task_manager.drx_sl_honchos_table = {
+table.insert(axr_task_manager.drx_sl_main_honcho_table) {
+	["fndn"] = "stalker_fndn_faction_trader"
+}
+table.insert(axr_task_manager.drx_sl_honchos_table) {
 
---	{"stalker_fndn_faction_trader", "fndn"},
---	{"stalker_fndn_faction_mechanic", "fndn"},
---	{"stalker_fndn_faction_medic", "fndn"},
---}
+	{"stalker_fndn_faction_trader", "fndn"},
+	{"stalker_fndn_faction_mechanic", "fndn"},
+	{"stalker_fndn_faction_medic", "fndn"},
+}
 
 --===================== utils_xml ===============================--
 function utils_xml.get_special_txt(str)
 	
 	if str == "actor_fndn"          then return "Foundation"                  end
 
+end
+
+--===================== xr_bribe ===============================--
+function is_enemy_to_fndn()
+	if game_relations.is_factions_enemies(character_community(db.actor),"fndn") then
+		return true
+	end
+	return false
+end
+
+function bribe_2_days_fndn(first_speaker, second_speaker)
+	set_bribe("fndn", 25, 60*60*24*2)
+end
+
+function bribe_4_days_fndn(first_speaker, second_speaker)
+	set_bribe("fndn", 25, 60*60*24*4)
 end

@@ -110,4 +110,16 @@
 		<text>Nope. Back to bog-standard contracts. Enjoy the routine.</text>
 	</string>
 
+	<string id="stalker_stitch_mortal_sin_decoder_66">
+		<text>You do that and I'll tell Dusk about the situation. Let's go!</text>
+	</string>
+
+	<string id="stalker_rogue_mortal_sin_76">
+		<text>It sure will be. By the way, Dusk sent a taskforce to help you out. They're all seasoned soldiers with impeccable reputations for professionalism. Go and decapitate the enemy.</text>
+	</string>
+
+	<string id="greh_prisoner_dialog_116">
+		<text>Foundationers! Stop interfering with something you don't understand! You don't even belong here!</text>
+	</string>
+
 </string_table>

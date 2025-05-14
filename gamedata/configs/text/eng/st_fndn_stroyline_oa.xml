@@ -1,0 +1,46 @@
+<string_table>
+
+   <string id="dusk_operation_afterglow_0">
+		<text>I've received the message about the mysterious radio transmissions. Have you got any new special contract for me?</text>
+	</string>
+	<string id="dusk_operation_afterglow_1">
+		<text>Yes, of course. Work is what we do. Our team in Zaton intercepted intermittent radio transmissions from around the Iron Forest in Zaton. Thing is, all they heard was jumbled noise. I want you to go there and check what's going on with proper equipment.</text>
+	</string>
+	<string id="dusk_operation_afterglow_2">
+		<text>Sure thing.</text>
+	</string>
+	<string id="dusk_operation_afterglow_21">
+		<text>Sorry dusk, I've got another contract to complete right now.</text>
+	</string>
+	<string id="dusk_operation_afterglow_3">
+		<text>Very well, info is worth money, too. Take this radio, Hog outfitted it with an advanced decryption device. Come back when you find out anything.</text>
+	</string>
+	
+	<string id="dusk_operation_afterglow_transmission_report_0">
+		<text>I'm back from Zaton.</text>
+	</string>
+	<string id="dusk_operation_afterglow_transmission_report_1">
+		<text>Heard anything interesting?</text>
+	</string>
+	<string id="dusk_operation_afterglow_transmission_report_2">
+		<text>Yes, actually. One Colonel Degtyarev hired me to help in a black ops mission. They've been trying to keep a group of very curious foreigners called UNISG from finding out too much about the Zone's dirty secrets.</text>
+	</string>
+	<string id="dusk_operation_afterglow_transmission_report_3">
+		<text>The UN is here already? One of their scouts was supposed to pick up some info from me on their way in, but they never made it. I guess we now know why, since it sounds like they got discovered pretty early. If the UN requests our services, I'll help them out. That said, what you do is up to you... thanks to the immense intrigue among western corporate and government powers, we actually stand to profit either way.</text>
+	</string>
+	<string id="dusk_operation_afterglow_transmission_report_4">
+		<text>Very well. See you.</text>
+	</string>
+
+	<string id="pri_a16_strelok_dialogue_team_56">
+		<text>Perhaps. We'll think what to do next after we get some rest. I realise you're a mercenary and might not be comfortable breaking your contract with Dushman, but consider joining us. We'll need all the help we can get.</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_506">
+		<text>Perhaps. I'll think what to do next. I realise you're a mercenary and might not be comfortable breaking your contract with Dushman, but consider joining me. My team is gone, and I'll need all the help I can get.</text>
+	</string>
+
+	<string id="degtyarev_transmission_150">
+		<text>That's my line, merc. Seems we've attracted some unwanted attention. Anyway, I'm Colonel Degtyarev. There's no time to waste, so I've got an offer you can't refuse: come and help my unit eliminate an enemy squad. Of course, you'll be adequately rewarded.</text>
+	</string>
+
+</string_table>

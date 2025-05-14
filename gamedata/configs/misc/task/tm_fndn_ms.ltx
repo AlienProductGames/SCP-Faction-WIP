@@ -34,7 +34,7 @@ title = lttz_ms_ambush_title
 target = {+greh_ambush_squad_dead} stalker_fndn_faction_trader, greh_ambush_squad
 descr = {+greh_ambush_squad_dead} lttz_ms_ambush_fndn_done_descr, lttz_ms_ambush_fndn_descr
 
-on_init = %=create_squad(cit_greh_ambush_squad:cit_killers_2)%
+on_init = %=create_squad(cit_greh_ambush_squad:pol_smart_terrain_1_2)%
 on_complete = %=reward_random_money(7000:8000) =reward_item(energy_drink) =complete_task_inc_goodwill(50:fndn)%
 condlist_0 = {+mortal_sin_ambush} complete
 
@@ -47,7 +47,7 @@ title = lttz_ms_urban_warfare_title
 target = {+greh_castigator_3_dead} stalker_rogue, {+greh_castigator_2_dead} greh_castigator_3, {+greh_castigator_1_dead} greh_castigator_2, greh_castigator_1
 descr = {+greh_castigator_1_dead +greh_castigator_2_dead +greh_castigator_3_dead} lttz_ms_urban_warfare_descr2, lttz_ms_urban_warfare_descr
 
-on_init = %=create_squad(lim_greh_recon_squad:lim_smart_terrain_3) =create_squad(lim_greh_forward_squad:lim_smart_terrain_3) =create_squad(greh_castigator_1_squad:lim_smart_terrain_4) =create_squad(greh_castigator_2_squad:lim_smart_terrain_5) =create_squad(greh_castigator_3_squad:lim_smart_terrain_6) =setup_companion_special_task(lim_killer_assault_squad:lim_smart_terrain_1)%
+on_init = %=create_squad(lim_greh_recon_squad:lim_smart_terrain_3) =create_squad(lim_greh_forward_squad:lim_smart_terrain_3) =create_squad(greh_castigator_1_squad:lim_smart_terrain_4) =create_squad(greh_castigator_2_squad:lim_smart_terrain_5) =create_squad(greh_castigator_3_squad:lim_smart_terrain_6) =setup_companion_special_task(lim_fndn_assault_squad:lim_smart_terrain_1)%
 on_complete = %=complete_task_inc_goodwill(50:stalker:fndn) =reward_random_money(9000:10000) =give_task(lttz_ms_war_prisoner)%
 condlist_0 = {+greh_castigator_1_dead +greh_castigator_2_dead +greh_castigator_3_dead +stalker_rogue_mortal_sin_warfare} complete
 condlist_1 = {+stalker_rogue_dead} fail
@@ -63,5 +63,5 @@ descr = lttz_ms_zone_hero_killer_descr
 status_functor = special_steps_for_lostzone_tasks
 stage_complete = 3
 
-on_complete = %=reward_item(wpn_svd_nimble) =reward_money(25000) =complete_task_inc_goodwill(100:fndn) =remove_special_task_squad(lim_killer_assault_squad)%
+on_complete = %=reward_item(wpn_svd_nimble) =reward_money(25000) =complete_task_inc_goodwill(100:fndn) =remove_special_task_squad(lim_fndn_assault_squad)%
 condlist_0 = {+mortal_sin_zone_hero} complete

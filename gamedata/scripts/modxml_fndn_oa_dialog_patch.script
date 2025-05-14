@@ -1,0 +1,71 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[gameplay\dialogs_lostzone_oa.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+
+            -- Here is my code to change XML
+            local stelok_patch = [[
+            <next>56</next>
+            <next>506</next>
+            ]]
+            local res = xml_obj:query("dialog[id=pri_a16_strelok_dialogue_team] > phrase_list > phrase[id=4]")
+            if is_not_empty(res) then
+                local el = res[1]
+                xml_obj:insertFromXMLString(stelok_patch, el, #el.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local stelok_patch2 = 
+            [[
+            <phrase id="56">
+			<dont_has_info>strelok_team_fallen</dont_has_info>
+			<has_info>operation_afterglow_fndn</has_info>
+				<text>pri_a16_strelok_dialogue_team_56</text>
+				<next>6</next>
+				<next>61</next>				
+			</phrase>
+            <phrase id="506">
+			<has_info>pri_a18_rogue_fallen</has_info>
+			<has_info>pri_a28_stitch_fallen</has_info>
+			<has_info>operation_afterglow_fndn</has_info>
+				<text>pri_a16_strelok_dialogue_team_506</text>
+				<next>6</next>
+				<next>61</next>	
+            </phrase>
+            ]]
+
+            local res2 = xml_obj:query("dialog[id=pri_a16_strelok_dialogue_team] > phrase_list")
+            if is_not_empty(res2) then
+                local el2 = res2[1]
+                xml_obj:insertFromXMLString(stelok_patch2, el2, #el2.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+           local degtyarev_patch = [[<next>150</next>]]
+            local res3 = xml_obj:query("dialog[id=degtyarev_transmission] > phrase_list > phrase[id=0]")
+            if is_not_empty(res3) then
+                local el3 = res3[1]
+                xml_obj:insertFromXMLString(degtyarev_patch, el3, #el3.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local degtyarev_patch2 = 
+            [[
+            <phrase id="150">
+			<has_info>operation_afterglow_fndn@</has_info>
+				<text>degtyarev_transmission_150</text>
+				<next>2</next>
+				<next>21</next>
+			</phrase>
+
+            ]]
+
+            local res4 = xml_obj:query("dialog[id=degtyarev_transmission] > phrase_list")
+            if is_not_empty(res4) then
+                local el4 = res4[1]
+                xml_obj:insertFromXMLString(degtyarev_patch2, el4, #el4.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+        end
+    end)
+end

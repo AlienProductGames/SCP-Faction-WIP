@@ -42,10 +42,19 @@ function give_task_lttz_ms_report_fndn()
 	dialogs_lostzone.give_task('lttz_ms_report_fndn')
 end
 
+function give_task_lttz_ms_ambush_fndn()
+	dialogs_lostzone.give_task('lttz_ms_ambush_fndn')
+end
+
 function give_task_lttz_ms_urban_warfare_fndn()
 	dialogs_lostzone.give_task('lttz_ms_urban_warfare_fndn')
 end
 
 function give_task_lttz_ms_zone_hero_fndn()
 	dialogs_lostzone.give_task('lttz_ms_zone_hero_fndn')
+end
+
+function oa_transmission_report_honest_reward_fndn(first_speaker, second_speaker) 
+	dialogs.relocate_money_to_actor(first_speaker, second_speaker, 12000)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"fndn", 50})	
 end

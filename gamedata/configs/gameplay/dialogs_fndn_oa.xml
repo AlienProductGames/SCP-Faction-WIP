@@ -1,0 +1,66 @@
+<game_dialogs>
+
+   	<dialog id="dusk_operation_afterglow">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<dont_has_info>operation_afterglow</dont_has_info>
+	<has_info>mortal_sin_zone_hero</has_info>
+	<has_info>operation_afterglow_info_about_done</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_operation_afterglow_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_operation_afterglow_1</text>
+				<next>2</next>
+				<next>21</next>
+			</phrase>
+			<phrase id="2">
+                <text>dusk_operation_afterglow_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="21">
+                <text>dusk_operation_afterglow_21</text>
+			</phrase>
+			<phrase id="3">
+                <text>dusk_operation_afterglow_3</text>
+				<give_info>operation_afterglow</give_info>
+				<give_info>operation_afterglow_fndn</give_info>
+				<action>xr_effects.lttz_oa_give_decryption_radio</action>
+				<action>dialogs_lostzone.give_task_lttz_oa_encrypted_transmission</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+	<dialog id="dusk_operation_afterglow_transmission_report">
+	<precondition>dialogs.actor_true_fndn</precondition>
+	<dont_has_info>operation_afterglow_transmission_report</dont_has_info>
+	<has_info>degtyarev_rally_point_pda</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>dusk_operation_afterglow_transmission_report_0</text>
+				<next>1</next>
+            </phrase>
+			<phrase id="1">
+				<text>dusk_operation_afterglow_transmission_report_1</text>
+				<action>xr_effects.lttz_oa_take_decryption_radio</action>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+                <text>dusk_operation_afterglow_transmission_report_2</text>
+				<next>3</next>
+				<give_info>operation_afterglow_transmission_report_honest</give_info>
+				<action>dfndn_faction_story_mode_patch.oa_transmission_report_honest_reward_fndn</action>
+			</phrase>
+			<phrase id="3">
+                <text>dusk_operation_afterglow_transmission_report_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+                <text>dusk_operation_afterglow_transmission_report_4</text>
+				<give_info>operation_afterglow_transmission_report</give_info>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+</game_dialogs>

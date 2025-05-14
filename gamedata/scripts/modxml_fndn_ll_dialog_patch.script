@@ -1,0 +1,163 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[gameplay\dialogs_lostzone_ll.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+
+            -- Here is my code to change XML
+            local rougue_patch = 
+            [[
+            <phrase id="77">
+			<has_info>living_legend_fndn</has_info>
+				<text>stalker_rogue_living_legend_start_77</text>
+				<next>87</next>
+			</phrase>
+
+            ]]
+
+            local res = xml_obj:query("dialog[id=stalker_rogue_living_legend_start] > phrase_list")
+            if is_not_empty(res) then
+                local el = res[1]
+                xml_obj:insertFromXMLString(rougue_patch, el, #el.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local rougue_patch2 = [[<next>77</next>]]
+            local res2 = xml_obj:query("dialog[id=stalker_rogue_living_legend_start] > phrase_list > phrase[id=6]")
+            if is_not_empty(res2) then
+                local el2 = res2[1]
+                xml_obj:insertFromXMLString(rougue_patch2, el2, #el2.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local strelok_patch = 
+            [[
+        <phrase id="16">
+		<has_info>living_legend_fndn</has_info>
+			<text>living_legend_strelok_start_16</text>
+			<next>2</next>
+		</phrase>
+
+            ]]
+
+            local res3 = xml_obj:query("dialog[id=living_legend_strelok_start] > phrase_list")
+            if is_not_empty(res3) then
+                local el3 = res3[1]
+                xml_obj:insertFromXMLString(strelok_patch, el3, #el3.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local strelok_patch2 = [[<next>16</next>]]
+            local res4 = xml_obj:query("dialog[id=living_legend_strelok_start] > phrase_list > phrase[id=0]")
+            if is_not_empty(res4) then
+                local el4 = res4[1]
+                xml_obj:insertFromXMLString(strelok_patch2, el4, #el4.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local strelok_patch3 = 
+            [[
+        <phrase id="290">
+		<dont_has_info>living_legend_fndn_answer</dont_has_info>
+		<has_info>living_legend_fndn</has_info>
+			<text>living_legend_strelok_answers_290</text>
+			<next>2910</next>
+			<give_info>living_legend_faction_answer</give_info>
+		</phrase>
+		<phrase id="2910">
+			<text>living_legend_strelok_answers_291</text>
+			<next>21</next>
+			<next>22</next>
+			<next>23</next>
+			<next>24</next>
+			<next>3</next>
+			<give_info>living_legend_fndn_answer</give_info>
+		</phrase>
+
+            ]]
+
+            local res5 = xml_obj:query("dialog[id=living_legend_strelok_answers] > phrase_list")
+            if is_not_empty(res5) then
+                local el5 = res5[1]
+                xml_obj:insertFromXMLString(strelok_patch3, el5, #el5.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local strelok_patch4 = [[<next>290</next>]]
+            local res6 = xml_obj:query("dialog[id=living_legend_strelok_answers] > phrase_list > phrase[id=241]")
+            if is_not_empty(res6) then
+                local el6 = res6[1]
+                xml_obj:insertFromXMLString(strelok_patch4, el6, #el6.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local strelok_patch5 = 
+            [[
+        <phrase id="77">
+		<has_info>living_legend_fndn</has_info>
+		<has_info>living_legend_fndn_answer</has_info>
+			<text>living_legend_strelok_answers_77</text>
+			<next>771</next>
+		</phrase>
+		<phrase id="771">
+			<text>living_legend_strelok_answers_771</text>
+			<next>772</next>
+		</phrase>
+		<phrase id="772">
+			<text>living_legend_strelok_answers_772</text>
+			<next>87</next>
+		</phrase>
+
+            ]]
+
+            local res7 = xml_obj:query("dialog[id=living_legend_strelok_answers] > phrase_list")
+            if is_not_empty(res7) then
+                local el7 = res7[1]
+                xml_obj:insertFromXMLString(strelok_patch5, el7, #el7.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local strelok_patch6 = [[<next>77</next>]]
+            local res8 = xml_obj:query("dialog[id=living_legend_strelok_answers] > phrase_list > phrase[id=6]")
+            if is_not_empty(res8) then
+                local el8 = res8[1]
+                xml_obj:insertFromXMLString(strelok_patch6, el8, #el8.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local strelok_patch7 = 
+            [[
+        <phrase id="87">
+			<text>living_legend_strelok_answers_87</text>
+			<next>9</next>
+			<give_info>living_legend_strelok_answers</give_info>
+			<action>fndn_faction_story_mode_patch.give_task_lttz_ll_finish_fndn</action>
+		</phrase>
+
+            ]]
+
+            local res9 = xml_obj:query("dialog[id=living_legend_strelok_answers] > phrase_list")
+            if is_not_empty(res9) then
+                local el9 = res9[1]
+                xml_obj:insertFromXMLString(strelok_patch7, el9, #el9.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local stitch_patch = 
+            [[
+        <<phrase id="16">
+		<has_info>living_legend_fndn</has_info>
+			<text>stalker_stitch_dialog_meet_16</text>
+			<next>2</next>
+		</phrase>
+
+            ]]
+
+            local res10 = xml_obj:query("dialog[id=stalker_stitch_dialog_meet] > phrase_list")
+            if is_not_empty(res10) then
+                local el10 = res10[1]
+                xml_obj:insertFromXMLString(stitch_patch, el10, #el10.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local stitch_patch2 = [[<next>16</next>]]
+            local res11 = xml_obj:query("dialog[id=stalker_stitch_dialog_meet] > phrase_list > phrase[id=0]")
+            if is_not_empty(res11) then
+                local el11 = res11[1]
+                xml_obj:insertFromXMLString(stitch_patch2, el11, #el11.kids)
+            end
+        end
+    end)
+end

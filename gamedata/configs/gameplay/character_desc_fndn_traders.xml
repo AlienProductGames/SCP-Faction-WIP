@@ -26,6 +26,8 @@
 		<actor_dialog>dusk_mortal_sin_report</actor_dialog>
 		<actor_dialog>dusk_mortal_sin_ambush</actor_dialog>
 		<actor_dialog>dusk_mortal_sin_zone_hero</actor_dialog>
+        <actor_dialog>dusk_operation_afterglow</actor_dialog>
+		<actor_dialog>dusk_operation_afterglow_transmission_report</actor_dialog>
 	    <actor_dialog>dm_init_trader</actor_dialog>
         <actor_dialog>dm_broker_dialog</actor_dialog>
 		<actor_dialog>dm_important_documents</actor_dialog>

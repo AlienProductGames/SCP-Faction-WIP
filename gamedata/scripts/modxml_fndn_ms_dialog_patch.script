@@ -1,0 +1,86 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+        local xml_to_change = [[gameplay\dialogs_lostzone_ms.xml]]
+
+        -- Check if its the file i want to change
+        if xml_file_name == xml_to_change then
+
+            -- Here is my code to change XML
+            local stitch_patch = [[<next>66</next>]]
+            local res = xml_obj:query("dialog[id=stalker_stitch_mortal_sin_decoder] > phrase_list > phrase[id=5]")
+            if is_not_empty(res) then
+                local el = res[1]
+                xml_obj:insertFromXMLString(stitch_patch, el, #el.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local stitch_patch2 = 
+            [[
+                <phrase id="66">
+                <has_info>mortal_sin_fndn</has_info>
+                    <text>stalker_stitch_mortal_sin_decoder_66</text>
+                    <give_info>stalker_stitch_mortal_sin_decoder</give_info>
+                    <action>dialogs_lostzone.end_conversation</action>
+                    <action>fndn_faction_story_mode_patch.give_task_lttz_ms_report_fndn</action>
+                </phrase>
+
+            ]]
+
+            local res2 = xml_obj:query("dialog[id=stalker_stitch_mortal_sin_decoder] > phrase_list")
+            if is_not_empty(res2) then
+                local el2 = res2[1]
+                xml_obj:insertFromXMLString(stitch_patch2, el2, #el2.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local rogue_patch = [[<next>76</next>]]
+            local res3 = xml_obj:query("dialog[id=stalker_rogue_mortal_sin] > phrase_list > phrase[id=6]")
+            if is_not_empty(res3) then
+                local el3 = res3[1]
+                xml_obj:insertFromXMLString(rogue_patch, el3, #el3.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local rogue_patch2 = 
+            [[
+            <phrase id="76">
+			<has_info>mortal_sin_fndn</has_info>
+                <text>stalker_rogue_mortal_sin_76</text>
+				<give_info>stalker_rogue_mortal_sin</give_info>
+				<action>fndn_faction_story_mode_patch.give_task_lttz_ms_urban_warfare_fndn</action>
+			</phrase>
+
+            ]]
+
+            local res4 = xml_obj:query("dialog[id=stalker_rogue_mortal_sin] > phrase_list")
+            if is_not_empty(res4) then
+                local el4 = res4[1]
+                xml_obj:insertFromXMLString(rogue_patch2, el4, #el4.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local prisoner_patch = [[<next>116</next>]]
+            local res3 = xml_obj:query("dialog[id=greh_prisoner_dialog] > phrase_list > phrase[id=0]")
+            if is_not_empty(res3) then
+                local el3 = res3[1]
+                xml_obj:insertFromXMLString(prisoner_patch, el3, #el3.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+            local prisoner_patch2 = 
+            [[
+            <phrase id="116">
+			<has_info>mortal_sin_fndn</has_info>
+				<text>greh_prisoner_dialog_116</text>
+				<next>2</next>
+				<next>221</next>
+				<next>222</next>
+			</phrase>
+
+            ]]
+
+            local res4 = xml_obj:query("dialog[id=greh_prisoner_dialog] > phrase_list")
+            if is_not_empty(res4) then
+                local el4 = res4[1]
+                xml_obj:insertFromXMLString(prisoner_patch2, el4, #el4.kids)
+            end
+----------------------------------------------------------------------------------------------------------------------------------------------
+        end
+    end)
+end
