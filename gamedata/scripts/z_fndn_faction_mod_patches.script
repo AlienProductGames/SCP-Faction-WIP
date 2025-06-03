@@ -116,11 +116,12 @@ function warfare.get_squad_section_faction(squad_section)
 	if string.find(squad_section,"fndn") or string.find(squad_section,"foundation") then
 		return "fndn"
 	end
-
+end
 function warfare.is_squad_section_enemy_of_faction(squad_section, faction)
 	if string.find(squad_section,"fndn") or string.find(squad_section,"foundation") then
 		return "fndn"
 	end
+end
 --================= ui_warfare_options_hints ===================--
 ui_warfare_options_hints.squad_names["eng"] = {
 	["fndn_sim_squad_novice"]                                     	 = "fndn (Novice)",
