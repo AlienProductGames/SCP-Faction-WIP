@@ -93,6 +93,42 @@ function ui_pda_relations_tab.pda_relations_tab.InitControls(self)
 			self.list[9] = "fndn"
 		end
 	end
+
+	if safr_pda_mcm then
+        ui_pda_relations_tab.enc_ref_list = { 
+            "loner", 
+            "duty", 
+            "freedom", 
+            "clear_sky", 
+            "ecologist", 
+            "mercenary", 
+            "military", 
+            "isg",
+			"fndn", 
+            "renegade", 
+            "bandit", 
+            "greh", 
+            "monolith", 
+            "zombified"
+        }
+    
+        ui_pda_relations_tab.faction_code_list = { 
+            "stalker", 
+            "dolg", 
+            "freedom", 
+            "csky", 
+            "ecolog", 
+            "killer", 
+            "army", 
+            "isg",
+			"fndn", 
+            "renegade", 
+            "bandit", 
+            "greh", 
+            "monolith", 
+            "zombied"
+        }
+    end
 	orig_pda_relations_init_controls(self)
 end
 
@@ -207,8 +243,8 @@ end
 tasks_bounty.faction_list["fndn"] = "fndn"
 tasks_agent_rescue.faction_list["fndn"] = "fndn"
 tasks_assault.factions_list["fndn"] = true
-tasks_fetch.faction_list["fndn"] = "fndn"
-table.insert(tasks_fetch.patch_general, "fndn") 
+tasks_fetch.faction_lookup["fndn"] = "fndn"
+tasks_fetch.patch_general["fndn"] =
 {
 	["bandit_patch"]     = 0,
 	["renegade_patch"]   = 0,
@@ -216,21 +252,21 @@ table.insert(tasks_fetch.patch_general, "fndn")
 	["dolg_patch"]       = 0,
 }
 
-table.insert(tasks_fetch.patch_general, "dolg") 
+tasks_fetch.patch_general["dolg"] =
 {
 	["fndn_patch"]        = 0,
 }
 
 --========= axr_task_manager (may or may not be added) ===========--
-table.insert(axr_task_manager.drx_sl_main_honcho_table) {
-	["fndn"] = "stalker_fndn_faction_trader"
-}
-table.insert(axr_task_manager.drx_sl_honchos_table) {
+--table.insert(axr_task_manager.drx_sl_main_honcho_table) {
+--	["fndn"] = "stalker_fndn_faction_trader"
+--}
+--table.insert(axr_task_manager.drx_sl_honchos_table) {
 
-	{"stalker_fndn_faction_trader", "fndn"},
-	{"stalker_fndn_faction_mechanic", "fndn"},
-	{"stalker_fndn_faction_medic", "fndn"},
-}
+--	{"stalker_fndn_faction_trader", "fndn"},
+--	{"stalker_fndn_faction_mechanic", "fndn"},
+--	{"stalker_fndn_faction_medic", "fndn"},
+--}
 
 --===================== utils_xml ===============================--
 function utils_xml.get_special_txt(str)

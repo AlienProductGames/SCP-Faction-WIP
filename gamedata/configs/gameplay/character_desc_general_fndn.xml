@@ -38,21 +38,21 @@
 #include "gameplay\profiles\character_desc_fndn_0.xml"
     <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_0</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_0_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_4" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
     <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_0</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_0_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_5" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
     <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_0</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_0_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_6" team_default = "1">
@@ -66,14 +66,14 @@
 #include "gameplay\profiles\character_desc_fndn_0.xml"
     <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_0</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_0_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_8" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_0.xml"
     <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_0</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_0_1</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_0_default_9" team_default = "1">
@@ -87,7 +87,7 @@
 #include "gameplay\profiles\character_desc_fndn_0.xml"
     <icon>Foundation_Guard_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_0</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_0_1</visual>
 </specific_character>
 		
 <specific_character id="sim_default_fndn_0_default_11" team_default = "1">
@@ -279,7 +279,7 @@
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_3" team_default = "1">
@@ -307,14 +307,14 @@
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_7" team_default = "1">
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_2_default_8" team_default = "1">
@@ -335,7 +335,7 @@
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_11" team_default = "1">
@@ -349,7 +349,7 @@
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_13" team_default = "1">
@@ -370,7 +370,7 @@
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_16" team_default = "1">
@@ -398,7 +398,7 @@
 #include "gameplay\profiles\character_desc_fndn_2.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_2_default_20" team_default = "1">
@@ -434,7 +434,7 @@
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
     
 <specific_character id="sim_default_fndn_3_default_3" team_default = "1">
@@ -455,7 +455,7 @@
 #include "gameplay\profiles\character_desc_fndn_3.xml"
     <icon>Zone_Wonderer_portrait</icon>
     <snd_config>characters_voice\human\foundation\</snd_config>
-    <visual>actors\stalker_fndn\stalker_fndn_1</visual>
+    <visual>actors\stalker_fndn\stalker_fndn_1_0</visual>
 </specific_character>
 	
 <specific_character id="sim_default_fndn_3_default_6" team_default = "1">

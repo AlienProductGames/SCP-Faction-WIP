@@ -19,7 +19,9 @@ function dialogs.npc_fndn(first_speaker, second_speaker)
 	return character_community(npc) == "fndn"
 end 
 
-dialogs.story_factions["fndn"] = true
+function dialogs.can_do_task_mysteries_of_the_zone(a,b)
+    dialogs.story_factions["fndn"] = true
+end
 
 dialogs.important_docs_warfare_names["fndn"] = "stalker_fndn_faction_trader"
 

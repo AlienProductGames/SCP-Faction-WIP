@@ -52,7 +52,7 @@ function on_xml_read()
             local degtyarev_patch2 = 
             [[
             <phrase id="150">
-			<has_info>operation_afterglow_fndn@</has_info>
+			<has_info>operation_afterglow_fndn</has_info>
 				<text>degtyarev_transmission_150</text>
 				<next>2</next>
 				<next>21</next>

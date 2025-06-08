@@ -4,7 +4,7 @@
     <specific_character id="stalker_fndn_faction_trader" team_default="1">
             <name>stalker_fndn_faction_trader_name</name>
             <bio>stalker_fndn_faction_trader_bio</bio>
-            <icon>Zone_Wonderer_portrait</icon>
+            <icon>dusk_portrait</icon>
             <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
             <snd_config>characters_voice\human\foundation\</snd_config>
 
@@ -44,7 +44,7 @@
     <specific_character id="stalker_fndn_faction_mechanic" team_default="1">
             <name>stalker_fndn_faction_mechanic_name</name>
             <bio>stalker_fndn_faction_mechanic_bio</bio>
-            <icon>Zone_Wonderer_portrait</icon>
+            <icon>smith_portrait</icon>
             <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
             <snd_config>characters_voice\human\foundation\</snd_config>
 
@@ -70,7 +70,7 @@
     <specific_character id="stalker_fndn_faction_medic" team_default="1">
 		<name>stalker_fndn_faction_medic_name</name>
         <bio>stalker_fndn_faction_medic_bio</bio>
-		<icon>Zone_Wonderer_portrait</icon>	
+		<icon>dave_portrait</icon>	
         <visual>actors\stalker_fndn\stalker_fndn_1_no_nvg</visual>
         <snd_config>characters_voice\human\foundation\</snd_config>
 

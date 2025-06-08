@@ -1,10 +1,10 @@
 function on_xml_read()
     RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
         -- XML file i want to change
-        local xml_to_change = [[ui\map_spots.xml]]
 
         -- Check if its the file i want to change
-        if xml_file_name == xml_to_change then
+        if xml_file_name == [[ui\map_spots.xml]] 
+        then
             -- Here is my code to change XML
             local fndn_map_spot =
             [[

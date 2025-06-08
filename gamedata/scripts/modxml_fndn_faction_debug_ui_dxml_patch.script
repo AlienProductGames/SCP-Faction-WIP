@@ -1,0 +1,30 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- XML file i want to change
+
+        -- Check if its the file i want to change
+        if xml_file_name == [[ui\ui_debug_launcher.xml]]
+        then
+            -- Here is my code to change XML
+            local fndn_debug =
+            [[
+            <btn_fndn x="50" y="450" width="90" height="90" stretch="1">
+			    <texture>ui_new_game_btn_fndn</texture>
+		    </btn_fndn>
+            ]]
+            local res = xml_obj:query("dbg_faction_change")
+            if is_not_empty(res) then
+                local el = res[1]
+                xml_obj:insertFromXMLString(fndn_debug, el, #el.kids)
+                xml_obj:setElementAttr(el, {y=134, height=560})
+            end
+
+            local res2 = xml_obj:query("dbg_faction_change > frame_base")
+            if is_not_empty(res2) then
+                local el2 = res2[1]
+                xml_obj:setElementAttr(el2, {height=560})
+            end
+
+        end
+    end)
+end
