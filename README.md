@@ -17,3 +17,4 @@ Models & Textures by: Shadowscale from the SCP:Unity Project
 
 Voicelines from SCP:Containment Breach and its Directers cut Mod
 
+Hades@DK: For help with FDDA Patch
