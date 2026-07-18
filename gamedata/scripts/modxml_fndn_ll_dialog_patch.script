@@ -7,7 +7,7 @@ function on_xml_read()
         if xml_file_name == xml_to_change then
 
             -- Here is my code to change XML
-            local rougue_patch = 
+            local rogue_patch = 
             [[
             <phrase id="77">
 			<has_info>living_legend_fndn</has_info>
@@ -15,19 +15,24 @@ function on_xml_read()
 				<next>87</next>
 			</phrase>
 
+            <phrase id="87">
+				<text>stalker_rogue_living_legend_start_87</text>
+				<next>9</next>
+			</phrase>
+
             ]]
 
             local res = xml_obj:query("dialog[id=stalker_rogue_living_legend_start] > phrase_list")
             if is_not_empty(res) then
                 local el = res[1]
-                xml_obj:insertFromXMLString(rougue_patch, el, #el.kids)
+                xml_obj:insertFromXMLString(rogue_patch, el, #el.kids)
             end
 ----------------------------------------------------------------------------------------------------------------------------------------------
-            local rougue_patch2 = [[<next>77</next>]]
+            local rogue_patch2 = [[<next>77</next>]]
             local res2 = xml_obj:query("dialog[id=stalker_rogue_living_legend_start] > phrase_list > phrase[id=6]")
             if is_not_empty(res2) then
                 local el2 = res2[1]
-                xml_obj:insertFromXMLString(rougue_patch2, el2, #el2.kids)
+                xml_obj:insertFromXMLString(rogue_patch2, el2, #el2.kids)
             end
 ----------------------------------------------------------------------------------------------------------------------------------------------
             local strelok_patch = 

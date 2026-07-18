@@ -21,7 +21,7 @@
 	<!-- -->
 
     <string id="drx_sl_start_msg_fndn">
-		<text>I got a mission for any sucker wanting some overtime.</text>
+		<text>Hey, I got a mission for you. Come to my office.</text>
 	</string>
 	
 	<!-- -->
@@ -39,31 +39,31 @@
 		<text>Hey, I'm here for that mission</text>
 	</string>
     <string id="dusk_questlines_about_dialog_1">
-		<text>Really? are you sure new guy? It's nothing like back at the facility.</text>
+		<text>Good. We need someone to make sense of this whole damn situation. After that dimwit of a scientist did that test on that SCP; we haven't known where we are even after a week. So I need you to gather some intel and find out where the bloody hell we are. I already sent out a few scouts to gather some intel but they didn't learn much but it's a start.</text>
 	</string>
 	
 	<!-- -->
 
     <string id="dusk_living_legend_0">
-		<text>So, what's this important mission about?</text>
+		<text>Great. where would I even start to piece this all together when the scouts couldn't?</text>
 	</string>
 	<string id="dusk_living_legend_1">
-		<text>We got word of some legend talking about a stalker named strelok. They say he's got knowledge about the zone that nobody else knows about. We want you to find this strelok and extract as much information you can from him.</text>
+		<text>I'll tell you what they told me. First, the locals here call themselves "stalkers"; no idea if it means anything but there are sub-factions to these "stalkers" so be careful who you make contact with, not all of them are friendly. Secondly, they call this place "The Zone". It appears that this place, "The Zone", is post-apocolyptic; some kind of nuclear blast up north from a power plant the locals call "sarcophagus". These locals sure do have a unqiue naming scheme. lastly, there's some legend talking about somebody named strelok going about around campfires. These "Stalkers" say he's got knowledge about "the zone" that nobody else knows about. So, I want you to find this strelok and extract as much information you can from him.</text>
 	</string>
 	<string id="dusk_living_legend_2">
-		<text>Now that sounds like a solid mission.</text>
+		<text>So, find this Strelok and get info out of him. sounds easy enough but why me?</text>
 	</string>
 	<string id="dusk_living_legend_21">
 		<text>I change my mind.</text>
 	</string>
 	<string id="dusk_living_legend_3">
-		<text>Yes, however, it won't be that easy. We have no idea where he is but we have word that an old friend of streloks has been spotted in the swamp.</text>
+		<text>Sounds easy but you know it won't be that easy, nothing is in our line of work. I have no idea where he is but it would seem that an old friend of streloks has been spotted in the swamps. The swamps are south-west from here but be careful, it's a tortuous place. As for why you? you were the one who got used to the chaotic workplace that was the facility quickly and I trust you. I'm sure you'll be able to adapt on the fly and do me proud.</text>
 	</string>
 	<string id="dusk_living_legend_4">
-		<text>I'll take the mission.</text>
+		<text>Well, it's a start. I'll take the mission.</text>
 	</string>
 	<string id="dusk_living_legend_5">
-		<text>I like your spirit. Go find Strelok's old friend, goes by Doctor. Here's a PDA with the Doctor's coordinates. DON'T lose it, got it? If I see you dead without it, I'm killing you again, kapeesh?.</text>
+		<text>Very good. I'll add the coords I was given to your PDA. It's the last known location of streloks friend, goes by docter apparently. Be sure to talk to smith if you need any equipment touched up. Good luck.</text>
 	</string>
 	
 	<!-- -->
@@ -128,6 +128,9 @@
 	<string id="living_legend_strelok_answers_772">
 		<text>Good Luck.</text>
 	</string>
+	<string id="living_legend_strelok_answers_87">
+		<text>Good. Take this as a token of gratitude and a reward for your assistance. We should go on our separate ways now, but I hope we'll meet again, someday. Farewell, who ever you are.</text>
+	</string>
 
 	<!-- -->
 
@@ -168,6 +171,9 @@
 		<text>No problem. Good Luck rookie.</text>
 	</string>
 	
+	<string id="lttz_ll_finish_fndn_task_descr">
+		<text>Return to Dusk to report your success</text>
+	</string>
 
 
 </string_table>

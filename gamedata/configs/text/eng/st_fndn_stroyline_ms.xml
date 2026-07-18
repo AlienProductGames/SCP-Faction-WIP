@@ -52,6 +52,10 @@
 	<string id="dusk_mortal_sin_envoy_4">
 		<text>No rest for the wicked. Okay, I'll go see what I can do.</text>
 	</string>
+
+	<string id="lttz_ms_report_fndn_descr">
+		<text>According to Stitch, Sin's been preparing a large-scale campaign. Report your findings to Dusk.</text>
+	</string>
 	
 	<string id="dusk_mortal_sin_report_0">
 		<text>I've been to the Red Forest, Dusk.</text>
@@ -67,6 +71,13 @@
 	</string>
 	<string id="dusk_mortal_sin_report_4">
 		<text>I'm going!</text>
+	</string>
+
+	<string id="lttz_ms_ambush_fndn_descr">
+		<text>Sin forces are invading the Meadows. You have to fend them off.</text>
+	</string>
+	<string id="lttz_ms_ambush_fndn_done_descr">
+		<text>You have repelled the enemy assault. Report to Dusk.</text>
 	</string>
 	
 	<string id="dusk_mortal_sin_ambush_0">
